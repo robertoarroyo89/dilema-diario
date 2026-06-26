@@ -60,12 +60,22 @@ service cloud.firestore {
       allow delete: if signedIn() && resource.data.adminId == request.auth.uid;
     }
 
+    // UID del administrador de la app (para subir los dilemas GLOBALES).
+    // Cámbialo por TU uid: lo ves en la página /admin de la app, o en
+    // Authentication → Users de la consola de Firebase.
+    function isAdmin() {
+      return signedIn() && request.auth.uid == 'PON_AQUI_TU_UID';
+    }
+
     // ---- DILEMMAS ----
     match /dilemmas/{dilemmaId} {
-      // Lectura para autenticados (filtrado fino de grupos se hace en la query/cliente)
+      // Lectura para autenticados (el filtrado de grupos se hace en la query)
       allow read: if signedIn();
-      // La creación de dilemas se hace por consola/admin o Function (no desde cliente)
-      allow write: if false;
+      // Globales: solo el admin de la app.
+      // De grupo: solo el admin de ese grupo (p. ej. quien lo creó).
+      allow write: if isAdmin() ||
+        (request.resource.data.type == 'group' &&
+         get(/databases/$(database)/documents/groups/$(request.resource.data.groupId)).data.adminId == request.auth.uid);
     }
 
     // ---- VOTES ----

@@ -5,6 +5,7 @@ import TabBar from './components/ui/TabBar'
 import Button from './components/ui/Button'
 import GlobalFeed from './pages/GlobalFeed'
 import GroupsFeed from './pages/GroupsFeed'
+import AdminImport from './pages/AdminImport'
 
 export default function App() {
   const { user, profile, loading, logout } = useAuth()
@@ -40,6 +41,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<GlobalFeed />} />
             <Route path="/grupos" element={<GroupsFeed />} />
+            <Route path="/admin" element={<AdminImport />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>

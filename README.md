@@ -97,29 +97,33 @@ enlace para hacerlo con un clic:
 - Grupos: `dilemmas` por (`type`, `groupId`, `dateToShow`)
 ```
 
-## Importar los dilemas
+## Importar los dilemas (desde el navegador, sin terminal)
 
-Los dilemas viven en `src/data/dilemas_globales.json` y
-`src/data/dilemas_inmobiliarios.json`. Para subirlos a Firestore:
+Los 515 dilemas están en `src/data/`. Para subirlos a Firestore desde la propia
+app, sin tocar ninguna terminal:
 
-1. **Clave de servicio:** Firebase Console → Configuración del proyecto →
-   Cuentas de servicio → *Generar nueva clave privada*. Guarda el archivo como
-   `serviceAccountKey.json` en la raíz (ya está en `.gitignore`).
-2. **Instala** la dependencia de importación: `npm install`.
-3. **(Opcional, para los inmobiliarios)** crea el grupo de la agencia dentro de
-   la app y copia su id de Firestore.
-4. **Ejecuta:**
+1. **Despliega** el proyecto como siempre (GitHub → Vercel).
+2. Abre la app, **regístrate** y entra.
+3. Ve a la ruta **`/admin`** (p. ej. `tu-app.vercel.app/admin`). Verás tu **UID**.
+4. **Configura las reglas una vez:** copia tu UID y pégalo en `firestore.rules`
+   donde pone `PON_AQUI_TU_UID`. En Firebase Console → *Firestore Database* →
+   pestaña **Rules**, pega el contenido del archivo y pulsa **Publicar**. (Esto
+   da permiso para subir los dilemas globales.)
+5. **Crea el grupo** de la agencia en la app (pestaña Grupos) si vas a usar los
+   inmobiliarios.
+6. Vuelve a `/admin`, elige la **fecha de inicio** y el **grupo**, y pulsa
+   *Subir 365 globales* y *Subir 150 inmobiliarios*. Verás el progreso en pantalla.
+
+Cada dilema recibe un día consecutivo desde la fecha elegida. Es reejecutable
+(ids por fecha) sin duplicar.
+
+### Alternativa: por terminal (opcional, para quien la use)
+
+Si prefieres terminal, existe `scripts/seed-dilemmas.mjs` con el Admin SDK.
+Requiere Node, `npm install` y un `serviceAccountKey.json` en la raíz:
 
 ```bash
-# Solo globales, empezando hoy:
-npm run seed
-
-# Globales + inmobiliarios en un grupo, con fecha de inicio concreta:
 node scripts/seed-dilemmas.mjs --start 2026-06-27 --group TU_GROUP_ID
 ```
-
-Cada dilema recibe un día consecutivo desde `--start`. El script es idempotente
-(ids por fecha), así que puedes reejecutarlo sin duplicar nada. Cuando añadas
-las siguientes tandas a los JSON, basta con volver a lanzarlo.
 
 **Contenido completo:** 365/365 globales · 150/150 inmobiliarios. ✓
