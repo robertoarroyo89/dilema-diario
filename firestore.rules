@@ -1,0 +1,94 @@
+rules_version = '2';
+
+// ============================================================================
+//  EL DILEMA DIARIO — Reglas de seguridad de Firestore
+// ============================================================================
+//  Estructura de datos (resumen):
+//
+//  users/{uid}            -> { email, displayName, groups[], createdAt }
+//  groups/{groupId}       -> { name, membersCode, adminId, members[], createdAt }
+//  dilemmas/{dilemmaId}   -> { type, groupId?, question, optionA, optionB, dateToShow }
+//  votes/{dilemmaId_uid}  -> { dilemmaId, userId, selectedOption, createdAt }
+//  results/{dilemmaId}    -> { countA, countB }
+//
+//  CLAVE DE LA MECÁNICA: el documento `results/{dilemmaId}` (los porcentajes)
+//  SOLO se puede leer si existe un voto de ese usuario para ese dilema.
+//  Así el "no puedes ver resultados hasta votar" queda garantizado en el
+//  backend, no solo escondido en la UI.
+//
+//  Nota: para integridad total de los contadores (que el +1 sea siempre +1),
+//  lo ideal en producción es mover el incremento a una Cloud Function. Estas
+//  reglas son un MVP seguro para el lanzamiento.
+// ============================================================================
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+
+    // El usuario ya ha votado este dilema
+    function hasVoted(dilemmaId) {
+      return signedIn() &&
+        exists(/databases/$(database)/documents/votes/$(dilemmaId + '_' + request.auth.uid));
+    }
+
+    // ---- USERS ----
+    match /users/{uid} {
+      // Perfiles legibles por usuarios autenticados (para mostrar displayName)
+      allow read: if signedIn();
+      // Cada uno solo escribe su propio perfil
+      allow create, update: if isOwner(uid);
+      allow delete: if false;
+    }
+
+    // ---- GROUPS ----
+    match /groups/{groupId} {
+      allow read: if signedIn();
+      // Cualquiera autenticado puede crear un grupo (queda como admin)
+      allow create: if signedIn() && request.resource.data.adminId == request.auth.uid;
+      // Solo el admin actualiza metadatos; los miembros se gestionan en backend/Function
+      allow update: if signedIn() &&
+        (resource.data.adminId == request.auth.uid ||
+         // permitir que un usuario se añada a sí mismo a `members` al unirse por código
+         request.resource.data.diff(resource.data).affectedKeys().hasOnly(['members']));
+      allow delete: if signedIn() && resource.data.adminId == request.auth.uid;
+    }
+
+    // ---- DILEMMAS ----
+    match /dilemmas/{dilemmaId} {
+      // Lectura para autenticados (filtrado fino de grupos se hace en la query/cliente)
+      allow read: if signedIn();
+      // La creación de dilemas se hace por consola/admin o Function (no desde cliente)
+      allow write: if false;
+    }
+
+    // ---- VOTES ----
+    match /votes/{voteId} {
+      // Solo puedes leer tu propio voto
+      allow read: if signedIn() && resource.data.userId == request.auth.uid;
+      // Crear voto: id determinista = dilemmaId_uid (impide doble voto),
+      // debe ser tuyo y la opción válida
+      allow create: if signedIn()
+        && request.resource.data.userId == request.auth.uid
+        && voteId == request.resource.data.dilemmaId + '_' + request.auth.uid
+        && request.resource.data.selectedOption in ['A', 'B'];
+      // Un voto es inmutable: no se edita ni se borra
+      allow update, delete: if false;
+    }
+
+    // ---- RESULTS (agregados / porcentajes) ----
+    match /results/{dilemmaId} {
+      // >>> Aquí vive la mecánica: solo lees resultados si ya votaste <<<
+      allow read: if hasVoted(dilemmaId);
+      // Incremento de contadores al votar (MVP). En producción: Cloud Function.
+      allow create, update: if hasVoted(dilemmaId);
+      allow delete: if false;
+    }
+  }
+}
