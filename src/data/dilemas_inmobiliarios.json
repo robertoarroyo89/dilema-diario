@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "question": "El propietario insiste en publicar su vivienda un 15% por encima de mercado. ¿Aceptas la captación o la rechazas?",
+    "optionA": "Aceptar y ajustar luego",
+    "optionB": "Rechazar si no ajusta precio"
+  },
+  {
+    "id": 2,
+    "question": "Un inversor ofrece hoy el precio pedido en efectivo; una familia ofrece lo mismo pero con hipoteca a 30 días. ¿A quién vendes?",
+    "optionA": "Al inversor (seguro)",
+    "optionB": "A la familia (espera)"
+  },
+  {
+    "id": 3,
+    "question": "Para quedarte una exclusiva de lujo, el cliente exige bajar tus honorarios al 1,5%. ¿Cedes o defiendes tu tarifa?",
+    "optionA": "Bajar y quedártela",
+    "optionB": "Defender la tarifa"
+  },
+  {
+    "id": 4,
+    "question": "Puedes publicar ya con home staging digital por IA en una hora, o esperar dos días a una sesión de fotos reales con estilismo. ¿Qué haces?",
+    "optionA": "Staging con IA ya",
+    "optionB": "Fotos reales con tiempo"
+  },
+  {
+    "id": 5,
+    "question": "Un comprador te pide que no enseñes el piso a nadie más mientras lo piensa, pero sin dejar señal. ¿Aceptas?",
+    "optionA": "Reservar de palabra",
+    "optionB": "Seguir enseñando"
+  },
+  {
+    "id": 6,
+    "question": "Entra un lead caliente un domingo a las 21:00. ¿Lo llamas ahora o esperas al lunes?",
+    "optionA": "Llamar ahora",
+    "optionB": "Esperar al lunes"
+  },
+  {
+    "id": 7,
+    "question": "El propietario quiere fotos con sus muebles viejos porque 'así se vende la realidad'. ¿Le haces caso o insistes en preparar la casa?",
+    "optionA": "Respetar su criterio",
+    "optionB": "Insistir en prepararla"
+  },
+  {
+    "id": 8,
+    "question": "Un cliente difícil te trata mal, pero su vivienda es oro puro. ¿Lo aguantas o lo dejas ir?",
+    "optionA": "Aguantar por el piso",
+    "optionB": "Dejarlo ir"
+  },
+  {
+    "id": 9,
+    "question": "Puedes cerrar la venta sin mencionar un defecto menor que el comprador no ha detectado. ¿Lo dices?",
+    "optionA": "Callar, es menor",
+    "optionB": "Decirlo siempre"
+  },
+  {
+    "id": 10,
+    "question": "Tienes el presupuesto de marketing del mes: ¿un solo anuncio premium de una vivienda de lujo, o diez anuncios de pisos medios?",
+    "optionA": "Uno premium",
+    "optionB": "Diez medios"
+  },
+  {
+    "id": 11,
+    "question": "Un compañero de otra agencia te propone compartir comisión en una venta cruzada. ¿Colaboras o vas por tu cuenta?",
+    "optionA": "Colaborar al 50%",
+    "optionB": "Ir solo"
+  },
+  {
+    "id": 12,
+    "question": "El cliente quiere su piso en todos los portales; tú crees que uno bien trabajado basta y cuida la marca. ¿Qué haces?",
+    "optionA": "Todos los portales",
+    "optionB": "Solo el que funciona"
+  },
+  {
+    "id": 13,
+    "question": "Una vivienda lleva 90 días sin visitas. ¿Bajas el precio o rehaces toda la estrategia de fotos y anuncio?",
+    "optionA": "Bajar el precio",
+    "optionB": "Rehacer la estrategia"
+  },
+  {
+    "id": 14,
+    "question": "Te ofrecen un sobreprecio si 'agilizas' saltándote un trámite. ¿Lo haces?",
+    "optionA": "Agilizar",
+    "optionB": "Hacerlo bien aunque tarde"
+  },
+  {
+    "id": 15,
+    "question": "Un formato de reel viral no tiene nada que ver con inmobiliaria pero daría muchísimo alcance. ¿Lo publicas en la cuenta de la agencia?",
+    "optionA": "Publicarlo",
+    "optionB": "Mantener el feed temático"
+  },
+  {
+    "id": 16,
+    "question": "Un propietario te da la exclusiva pero sin cartel en la fachada por discreción. ¿La aceptas igual?",
+    "optionA": "Sí, sin cartel",
+    "optionB": "No, el cartel capta"
+  },
+  {
+    "id": 17,
+    "question": "Tienes dos compradores para el mismo piso. ¿Provocas una puja entre ellos o respetas el orden de llegada?",
+    "optionA": "Puja al alza",
+    "optionB": "Orden de llegada"
+  },
+  {
+    "id": 18,
+    "question": "El mejor lead del mes solo trata por WhatsApp y nunca coge el teléfono. ¿Te adaptas o insistes en llamarle?",
+    "optionA": "Todo por WhatsApp",
+    "optionB": "Insistir en llamar"
+  },
+  {
+    "id": 19,
+    "question": "Una valoración honesta hará que el cliente se vaya a la agencia que le promete más. ¿Le dices la verdad o ajustas al alza para retenerlo?",
+    "optionA": "Verdad aunque se vaya",
+    "optionB": "Ajustar para retenerlo"
+  },
+  {
+    "id": 20,
+    "question": "Marketing quiere invertir en vídeo con dron; comercial dice que los leads vienen de las llamadas. ¿Dónde va el presupuesto?",
+    "optionA": "Vídeo y dron",
+    "optionB": "Reforzar comercial"
+  },
+  {
+    "id": 21,
+    "question": "Un cliente quiere visitar el piso a las 8:00, antes de tu jornada. ¿Vas o le propones otra hora?",
+    "optionA": "Ir a las 8:00",
+    "optionB": "Proponer otra hora"
+  },
+  {
+    "id": 22,
+    "question": "Puedes captar con exclusiva de 6 meses, o sin exclusiva pero empezando a trabajarla hoy mismo. ¿Qué prefieres?",
+    "optionA": "Exclusiva 6 meses",
+    "optionB": "Sin exclusiva, ya"
+  },
+  {
+    "id": 23,
+    "question": "Te cae una reseña injusta de una estrella en Google. ¿Respondes públicamente o la ignoras?",
+    "optionA": "Responder",
+    "optionB": "Ignorar"
+  },
+  {
+    "id": 24,
+    "question": "Tienes una foto perfecta del salón de hace dos años y la casa apenas ha cambiado. ¿La reutilizas o repites la sesión?",
+    "optionA": "Reutilizarla",
+    "optionB": "Repetir sesión"
+  },
+  {
+    "id": 25,
+    "question": "El comprador pide una rebaja de última hora justo antes de firmar. ¿Presionas al vendedor para cerrar o defiendes su precio?",
+    "optionA": "Presionar para cerrar",
+    "optionB": "Defender al vendedor"
+  },
+  {
+    "id": 26,
+    "question": "Un piso heredado entre cuatro hermanos que no se ponen de acuerdo. ¿Aceptas el encargo o lo evitas?",
+    "optionA": "Aceptar el lío",
+    "optionB": "Evitarlo"
+  },
+  {
+    "id": 27,
+    "question": "Este trimestre puedes invertir en formación de IA para el equipo, o en más visitas presenciales. ¿Qué priorizas?",
+    "optionA": "Formación en IA",
+    "optionB": "Más visitas"
+  },
+  {
+    "id": 28,
+    "question": "Un influencer local te ofrece promoción a cambio de comisión solo si vende. ¿Aceptas el trato?",
+    "optionA": "Aceptar",
+    "optionB": "Rechazar"
+  },
+  {
+    "id": 29,
+    "question": "El propietario quiere salir en redes con su cara y su historia; tú crees que resta profesionalidad. ¿Lo publicas así?",
+    "optionA": "Con su historia",
+    "optionB": "Formato neutro"
+  },
+  {
+    "id": 30,
+    "question": "Llega un lead que solo quiere 'mirar' sin intención real de comprar. ¿Le dedicas una visita completa o filtras antes?",
+    "optionA": "Visita completa",
+    "optionB": "Filtrar antes"
+  },
+  {
+    "id": 31,
+    "question": "Puedes cerrar tres ventas rápidas de pisos baratos, o trabajar dos meses una sola de lujo. ¿Dónde pones el foco?",
+    "optionA": "Tres rápidas",
+    "optionB": "Una de lujo"
+  },
+  {
+    "id": 32,
+    "question": "La agencia rival copia tu formato de reels. ¿Te reinventas con un estilo nuevo o doblas la apuesta por el tuyo?",
+    "optionA": "Reinventarte",
+    "optionB": "Doblar la apuesta"
+  },
+  {
+    "id": 33,
+    "question": "El vendedor no quiere reformar nada; tú sabes que 5.000€ de reforma darían 25.000€ más. ¿Insistes o lo vendes tal cual?",
+    "optionA": "Insistir en reformar",
+    "optionB": "Vender tal cual"
+  },
+  {
+    "id": 34,
+    "question": "Tu plantilla de descripción convierte bien pero suena a IA. ¿La humanizas dedicándole tiempo o la usas tal cual?",
+    "optionA": "Humanizarla",
+    "optionB": "Usarla tal cual"
+  },
+  {
+    "id": 35,
+    "question": "Un comprador extranjero paga más pero la comunicación es lenta y por traductor. ¿Lo priorizas frente a un local ágil?",
+    "optionA": "El extranjero que paga más",
+    "optionB": "El local ágil"
+  },
+  {
+    "id": 36,
+    "question": "El vendedor quiere fotos nocturnas con luces porque 'quedan de revista'; tú sabes que las de día venden más. ¿Cuáles publicas?",
+    "optionA": "Nocturnas espectaculares",
+    "optionB": "De día, más eficaces"
+  },
+  {
+    "id": 37,
+    "question": "¿Dedicas el día a captación puerta fría, o a montar marketing que haga entrar a los clientes solos?",
+    "optionA": "Puerta fría",
+    "optionB": "Marketing entrante"
+  },
+  {
+    "id": 38,
+    "question": "Un lead pide la dirección exacta antes de visitar para 'verlo por fuera'. ¿Se la das o proteges la captación?",
+    "optionA": "Dar la dirección",
+    "optionB": "Solo en la visita"
+  },
+  {
+    "id": 39,
+    "question": "Puedes cerrar antes de fin de mes bajando tu comisión, o esperar a un comprador mejor el mes que viene. ¿Qué haces?",
+    "optionA": "Cerrar ya, menos comisión",
+    "optionB": "Esperar mejor oferta"
+  },
+  {
+    "id": 40,
+    "question": "El equipo quiere usar IA para responder mensajes automáticamente. ¿La activas o mantienes el trato 100% humano?",
+    "optionA": "IA respondiendo",
+    "optionB": "Solo humano"
+  },
+  {
+    "id": 41,
+    "question": "Tienes una vivienda con vistas pero a reformar entera, y otra lista para entrar sin nada especial. ¿Cuál pones de portada?",
+    "optionA": "La de vistas a reformar",
+    "optionB": "La lista para entrar"
+  },
+  {
+    "id": 42,
+    "question": "Un propietario te promete la exclusiva 'si primero le vendes su otro piso gratis'. ¿Aceptas el anzuelo?",
+    "optionA": "Aceptar",
+    "optionB": "Rechazar"
+  },
+  {
+    "id": 43,
+    "question": "¿Inviertes en una web propia de la vivienda con tour 3D, o subes solo a los portales de siempre?",
+    "optionA": "Web propia con 3D",
+    "optionB": "Solo portales"
+  },
+  {
+    "id": 44,
+    "question": "El comprador quiere negociar directamente con el vendedor 'para entenderse mejor', sin ti delante. ¿Lo permites?",
+    "optionA": "Permitirlo",
+    "optionB": "Mediar siempre tú"
+  },
+  {
+    "id": 45,
+    "question": "Tienes 50 leads sin contactar y una venta a punto de caerse. ¿Salvas la venta o trabajas los leads?",
+    "optionA": "Salvar la venta",
+    "optionB": "Trabajar los leads"
+  },
+  {
+    "id": 46,
+    "question": "El cliente exige que también respondas los fines de semana. ¿Ofreces ese nivel de servicio o marcas límites?",
+    "optionA": "Disponible 7 días",
+    "optionB": "Marcar límites"
+  },
+  {
+    "id": 47,
+    "question": "El mercado está bajando. ¿Comunicas el dato crudo aunque desanime a los vendedores, o destacas solo lo positivo?",
+    "optionA": "Datos crudos",
+    "optionB": "Solo lo positivo"
+  },
+  {
+    "id": 48,
+    "question": "Te ofrecen una captación muy rentable pero lejos de tu zona habitual. ¿La coges o te centras en tu área?",
+    "optionA": "Ir lejos por rentabilidad",
+    "optionB": "Centrarte en tu zona"
+  },
+  {
+    "id": 49,
+    "question": "Un propietario pide precio solo para 'tantear', sin intención real de vender ahora. ¿Le dedicas trabajo o lo aparcas?",
+    "optionA": "Trabajarlo igual",
+    "optionB": "Aparcarlo"
+  },
+  {
+    "id": 50,
+    "question": "Al final de la jornada puedes hacer una última visita, o una hora de prospección para mañana. ¿Qué eliges?",
+    "optionA": "Una visita más hoy",
+    "optionB": "Prospección para mañana"
+  },
+  {
+    "id": 51,
+    "question": "¿Captar muchas viviendas para tener una cartera amplia, o pocas pero trabajarlas a fondo?",
+    "optionA": "Cartera amplia",
+    "optionB": "Pocas a fondo"
+  },
+  {
+    "id": 52,
+    "question": "¿Aceptar gestionar alquileres de baja rentabilidad, o centrarte solo en venta?",
+    "optionA": "Gestionar alquileres",
+    "optionB": "Solo venta"
+  },
+  {
+    "id": 53,
+    "question": "¿Hacer la valoración gratis para captar más, o cobrarla y filtrar a los clientes serios?",
+    "optionA": "Gratis para captar",
+    "optionB": "De pago para filtrar"
+  },
+  {
+    "id": 54,
+    "question": "¿Responder un lead en cinco minutos con un mensaje genérico, o en una hora con uno personalizado?",
+    "optionA": "Rápido y genérico",
+    "optionB": "Lento y personalizado"
+  },
+  {
+    "id": 55,
+    "question": "¿Enseñar el piso con la vecindad real, ruido incluido, o elegir la mejor hora para que luzca?",
+    "optionA": "Tal cual es",
+    "optionB": "La mejor hora"
+  },
+  {
+    "id": 56,
+    "question": "¿Aceptar una coexclusiva con otra agencia, o pelear por la exclusiva en solitario?",
+    "optionA": "Coexclusiva",
+    "optionB": "Exclusiva propia"
+  },
+  {
+    "id": 57,
+    "question": "¿Invertir en un buen CRM, o en más presupuesto de anuncios?",
+    "optionA": "Mejor CRM",
+    "optionB": "Más anuncios"
+  },
+  {
+    "id": 58,
+    "question": "¿Atender a un cliente que regatea tu comisión en cada paso, o reservar tu energía para otro?",
+    "optionA": "Aguantar el regateo",
+    "optionB": "Dejarlo ir"
+  },
+  {
+    "id": 59,
+    "question": "¿Publicar el precio en el anuncio, o ponerlo 'a consultar' para generar llamadas?",
+    "optionA": "Precio visible",
+    "optionB": "A consultar"
+  },
+  {
+    "id": 60,
+    "question": "¿Grabar tú mismo los vídeos con el móvil ya, o esperar al videógrafo profesional?",
+    "optionA": "Móvil ya",
+    "optionB": "Profesional luego"
+  },
+  {
+    "id": 61,
+    "question": "¿Formar al equipo en cierre de ventas, o en captación?",
+    "optionA": "Cierre",
+    "optionB": "Captación"
+  },
+  {
+    "id": 62,
+    "question": "¿Aceptar el encargo de un conocido por compromiso, o mantener todo estrictamente profesional?",
+    "optionA": "Por compromiso",
+    "optionB": "Solo profesional"
+  },
+  {
+    "id": 63,
+    "question": "¿Subir muchas fotos medias, o pocas pero impecables?",
+    "optionA": "Muchas medias",
+    "optionB": "Pocas impecables"
+  },
+  {
+    "id": 64,
+    "question": "¿Visitar con el comprador a solas, o agrupar varias visitas el mismo día para crear ambiente?",
+    "optionA": "Visita individual",
+    "optionB": "Visitas en bloque"
+  },
+  {
+    "id": 65,
+    "question": "¿Defender una reforma que dispararía el valor, o vender rápido a un reformista a menor precio?",
+    "optionA": "Reformar y vender más",
+    "optionB": "Vender rápido al reformista"
+  },
+  {
+    "id": 66,
+    "question": "¿Responder a una reseña negativa con datos, o con empatía?",
+    "optionA": "Con datos",
+    "optionB": "Con empatía"
+  },
+  {
+    "id": 67,
+    "question": "¿Captar obra nueva, de largo plazo, o segunda mano, de cierre rápido?",
+    "optionA": "Obra nueva",
+    "optionB": "Segunda mano"
+  },
+  {
+    "id": 68,
+    "question": "¿Decirle al comprador que hay otra oferta real para acelerar, o callarlo para no presionar?",
+    "optionA": "Decirlo, es real",
+    "optionB": "Callarlo"
+  },
+  {
+    "id": 69,
+    "question": "¿Especializarte en una sola zona y dominarla, o cubrir toda el área metropolitana?",
+    "optionA": "Una zona dominada",
+    "optionB": "Toda el área"
+  },
+  {
+    "id": 70,
+    "question": "¿Llamar a quien te dijo 'ya te llamo yo', o esperar respetando su espacio?",
+    "optionA": "Llamarle igual",
+    "optionB": "Esperar"
+  },
+  {
+    "id": 71,
+    "question": "¿Hacer una jornada de puertas abiertas el sábado, o dedicar el sábado a tu vida?",
+    "optionA": "Open house",
+    "optionB": "Tu finde"
+  },
+  {
+    "id": 72,
+    "question": "¿Probar tres meses con el precio inflado del propietario para que vea el mercado, o decir que no desde el principio?",
+    "optionA": "Probar tres meses",
+    "optionB": "No desde el inicio"
+  },
+  {
+    "id": 73,
+    "question": "¿Invertir en home staging físico, caro, o en staging virtual con IA, barato?",
+    "optionA": "Staging físico",
+    "optionB": "Staging virtual IA"
+  },
+  {
+    "id": 74,
+    "question": "¿Compartir un caso de éxito real con nombres y permiso, o anonimizarlo por discreción?",
+    "optionA": "Con nombres",
+    "optionB": "Anonimizado"
+  },
+  {
+    "id": 75,
+    "question": "¿Recalentar leads fríos de hace meses, o trabajar solo los nuevos y calientes?",
+    "optionA": "Recalentar los fríos",
+    "optionB": "Solo los nuevos"
+  },
+  {
+    "id": 76,
+    "question": "¿Mostrar en redes el día a día real de la agencia, o solo el contenido pulido?",
+    "optionA": "Día a día real",
+    "optionB": "Solo lo pulido"
+  },
+  {
+    "id": 77,
+    "question": "¿Pagar por leads a un portal, o generarlos tú con contenido orgánico?",
+    "optionA": "Comprar leads",
+    "optionB": "Generarlos tú"
+  },
+  {
+    "id": 78,
+    "question": "¿Coger el teléfono durante una visita con otro cliente, o ignorarlo y centrarte?",
+    "optionA": "Cogerlo por si acaso",
+    "optionB": "Ignorarlo"
+  },
+  {
+    "id": 79,
+    "question": "¿Bajar el precio en escalones pequeños, o con un recorte grande de golpe?",
+    "optionA": "Pequeños escalones",
+    "optionB": "Recorte grande"
+  },
+  {
+    "id": 80,
+    "question": "¿Firmar la captación hoy con condiciones normales, o esperar a negociar mejores?",
+    "optionA": "Firmar ya",
+    "optionB": "Negociar mejor"
+  },
+  {
+    "id": 81,
+    "question": "¿Enseñar el piso aún con inquilinos dentro, incómodo, o esperar a que se vaya?",
+    "optionA": "Con inquilinos",
+    "optionB": "Esperar vacío"
+  },
+  {
+    "id": 82,
+    "question": "¿Recomendar al cliente un asesor con el que tienes acuerdo, o uno neutral que le conviene más?",
+    "optionA": "Con el que tienes acuerdo",
+    "optionB": "El mejor para él"
+  },
+  {
+    "id": 83,
+    "question": "¿Publicar antes de tener todas las fotos para ganar tiempo, o esperar al pack completo?",
+    "optionA": "Publicar incompleto",
+    "optionB": "Esperar completo"
+  },
+  {
+    "id": 84,
+    "question": "¿Asumir tú una venta complicada del equipo, o dejar que el compañero aprenda solo?",
+    "optionA": "Asumirla tú",
+    "optionB": "Que aprenda él"
+  },
+  {
+    "id": 85,
+    "question": "¿Apostar por un comprador entusiasta con financiación dudosa, o por uno frío con dinero seguro?",
+    "optionA": "Entusiasta dudoso",
+    "optionB": "Frío solvente"
+  },
+  {
+    "id": 86,
+    "question": "¿Dedicar la mañana a captar nuevos, o a fidelizar a clientes pasados para referidos?",
+    "optionA": "Captar nuevos",
+    "optionB": "Fidelizar y referidos"
+  },
+  {
+    "id": 87,
+    "question": "¿Mostrar los metros reales aunque parezcan pocos, o destacar la 'sensación de amplitud'?",
+    "optionA": "Metros reales",
+    "optionB": "Sensación de amplitud"
+  },
+  {
+    "id": 88,
+    "question": "¿Trabajar un piso con problemas legales que tú resolverías, o evitar el riesgo?",
+    "optionA": "Resolverlo tú",
+    "optionB": "Evitar el riesgo"
+  },
+  {
+    "id": 89,
+    "question": "¿Usar el dron también en viviendas medias, o reservarlo solo para las de lujo?",
+    "optionA": "Dron también en media",
+    "optionB": "Dron solo en lujo"
+  },
+  {
+    "id": 90,
+    "question": "¿Responder mensajes de madrugada porque el cliente lo agradece, o cortar a una hora fija?",
+    "optionA": "Madrugada incluida",
+    "optionB": "Hora de corte"
+  },
+  {
+    "id": 91,
+    "question": "¿Captar a precio de mercado real arriesgando perder al cliente, o un poco alto para asegurarlo?",
+    "optionA": "Precio real",
+    "optionB": "Algo alto para asegurar"
+  },
+  {
+    "id": 92,
+    "question": "¿Hacer seguimiento cada tres días, o respetar y llamar cada dos semanas?",
+    "optionA": "Seguimiento intenso",
+    "optionB": "Seguimiento espaciado"
+  },
+  {
+    "id": 93,
+    "question": "¿Mostrar al cliente comparables que bajan su expectativa, o solo los que la suben?",
+    "optionA": "Comparables crudos",
+    "optionB": "Solo los favorables"
+  },
+  {
+    "id": 94,
+    "question": "¿Especializarte en lujo, pocas operaciones grandes, o en volumen, muchas pequeñas?",
+    "optionA": "Lujo",
+    "optionB": "Volumen"
+  },
+  {
+    "id": 95,
+    "question": "¿Dejar que el propietario gestione las visitas para ahorrarte tiempo, o controlarlas tú?",
+    "optionA": "Que las haga él",
+    "optionB": "Controlarlas tú"
+  },
+  {
+    "id": 96,
+    "question": "¿Pedir testimonios en vídeo, más creíbles pero más trabajo, o por escrito, rápidos?",
+    "optionA": "Vídeo",
+    "optionB": "Escrito"
+  },
+  {
+    "id": 97,
+    "question": "¿Cerrar cediendo en algo pequeño hoy, o defenderlo y arriesgar el trato?",
+    "optionA": "Ceder y cerrar",
+    "optionB": "Defender y arriesgar"
+  },
+  {
+    "id": 98,
+    "question": "¿Dedicar presupuesto a tu marca personal, o a la marca de la agencia?",
+    "optionA": "Marca personal",
+    "optionB": "Marca de la agencia"
+  },
+  {
+    "id": 99,
+    "question": "¿Decirle al vendedor que su piso tardará en venderse, o darle esperanzas para firmar?",
+    "optionA": "Verdad sobre los plazos",
+    "optionB": "Esperanza para firmar"
+  },
+  {
+    "id": 100,
+    "question": "¿Acompañar a un comprador que quiere ver veinte pisos, o filtrarlo a los tres que encajan?",
+    "optionA": "Enseñar los veinte",
+    "optionB": "Filtrar a tres"
+  },
+  {
+    "id": 101,
+    "question": "¿Trabajar con un cliente que negocia duro pero cierra seguro, o uno amable que se lo piensa eternamente?",
+    "optionA": "Duro pero cierra",
+    "optionB": "Amable pero eterno"
+  },
+  {
+    "id": 102,
+    "question": "¿Invertir tiempo en aprender a usar IA para tasaciones, o seguir con tu método de siempre?",
+    "optionA": "Aprender IA",
+    "optionB": "Tu método"
+  },
+  {
+    "id": 103,
+    "question": "¿Publicar un anuncio honesto con los 'peros' del piso, o destacar solo lo bueno?",
+    "optionA": "Con los peros",
+    "optionB": "Solo lo bueno"
+  },
+  {
+    "id": 104,
+    "question": "¿Coger un encargo lejos de tu zona porque el cliente confía en ti, o derivarlo a un compañero local?",
+    "optionA": "Ir tú",
+    "optionB": "Derivar al local"
+  },
+  {
+    "id": 105,
+    "question": "¿Rebajar la comisión a un cliente que traerá más operaciones, o mantener la tarifa con todos?",
+    "optionA": "Rebaja estratégica",
+    "optionB": "Tarifa firme"
+  },
+  {
+    "id": 106,
+    "question": "¿Enseñar el piso de noche por disponibilidad del cliente, o solo con luz natural de día?",
+    "optionA": "De noche si hace falta",
+    "optionB": "Solo de día"
+  },
+  {
+    "id": 107,
+    "question": "¿Aceptar una reserva baja del comprador, o pedir una señal seria que comprometa?",
+    "optionA": "Reserva baja",
+    "optionB": "Señal seria"
+  },
+  {
+    "id": 108,
+    "question": "¿Priorizar las viviendas que se venden fáciles, o esforzarte con las difíciles que nadie quiere?",
+    "optionA": "Las fáciles",
+    "optionB": "Las difíciles"
+  },
+  {
+    "id": 109,
+    "question": "¿Responder a todos rápido con plantillas, o redactar cada mensaje a mano?",
+    "optionA": "Plantillas",
+    "optionB": "A mano"
+  },
+  {
+    "id": 110,
+    "question": "¿Trabajar un festivo por una operación importante, o respetar tu descanso?",
+    "optionA": "Trabajar el festivo",
+    "optionB": "Descansar"
+  },
+  {
+    "id": 111,
+    "question": "¿Captar con contrato de doce meses, más seguridad, o de tres, más flexible para el cliente?",
+    "optionA": "Doce meses",
+    "optionB": "Tres meses"
+  },
+  {
+    "id": 112,
+    "question": "¿Decirle claramente al propietario que sus fotos antiguas espantan compradores, o cambiarlas sin darle la charla?",
+    "optionA": "Hablarlo claro",
+    "optionB": "Cambiarlas sin más"
+  },
+  {
+    "id": 113,
+    "question": "¿Invertir en una web de la agencia espectacular, o en estar en todos los portales?",
+    "optionA": "Web espectacular",
+    "optionB": "Todos los portales"
+  },
+  {
+    "id": 114,
+    "question": "¿Ceder al jefe el cliente que solo le quiere a él, o defender tu trabajo?",
+    "optionA": "Cederlo al jefe",
+    "optionB": "Defender tu rol"
+  },
+  {
+    "id": 115,
+    "question": "¿Llevar a cada visita un dossier impreso premium, o uno digital al móvil para ahorrar?",
+    "optionA": "Dossier impreso",
+    "optionB": "Digital al móvil"
+  },
+  {
+    "id": 116,
+    "question": "¿No avisar de una obra futura frente al piso, porque no es tu obligación, o avisar igual al comprador?",
+    "optionA": "No es tu obligación",
+    "optionB": "Avisar igual"
+  },
+  {
+    "id": 117,
+    "question": "¿Captar propietarios mayores, confianza pero lento, o jóvenes, rápido y digital?",
+    "optionA": "Propietarios mayores",
+    "optionB": "Propietarios jóvenes"
+  },
+  {
+    "id": 118,
+    "question": "¿Subir contenido educativo que genera autoridad pero no vende directo, o promo de pisos que vende ya?",
+    "optionA": "Educativo y autoridad",
+    "optionB": "Promo que vende"
+  },
+  {
+    "id": 119,
+    "question": "¿Aceptar menos precio pero firmar esta semana, o esperar al precio completo?",
+    "optionA": "Menos pero esta semana",
+    "optionB": "Precio completo, esperar"
+  },
+  {
+    "id": 120,
+    "question": "¿Regalar una tasación profesional en cada captación, o destinar ese dinero a publicidad de marca?",
+    "optionA": "Tasación de regalo",
+    "optionB": "Publicidad"
+  },
+  {
+    "id": 121,
+    "question": "¿Decir que sí a todo lo que pide el propietario para tenerlo contento, o liderar tú la estrategia?",
+    "optionA": "Complacerle",
+    "optionB": "Liderar tú"
+  },
+  {
+    "id": 122,
+    "question": "¿Hacer un sprint de muchas horas este mes para batir récord, o un ritmo sostenible todo el año?",
+    "optionA": "Sprint de récord",
+    "optionB": "Ritmo sostenible"
+  },
+  {
+    "id": 123,
+    "question": "¿Aceptar el piso sobrevalorado de un buen cliente histórico, o serle honesto aunque se moleste?",
+    "optionA": "Aceptarlo por la relación",
+    "optionB": "Honestidad"
+  },
+  {
+    "id": 124,
+    "question": "¿Mostrar al comprador solo lo que encaja con su presupuesto, o también algo por encima por si se enamora?",
+    "optionA": "Solo su presupuesto",
+    "optionB": "Algo más arriba"
+  },
+  {
+    "id": 125,
+    "question": "¿Cerrar la jornada llamando a un último lead, o preparando las visitas de mañana?",
+    "optionA": "Un último lead",
+    "optionB": "Preparar mañana"
+  },
+  {
+    "id": 126,
+    "question": "¿Automatizar el seguimiento de leads con IA, o contratar a una persona para ello?",
+    "optionA": "Automatizar con IA",
+    "optionB": "Contratar a alguien"
+  },
+  {
+    "id": 127,
+    "question": "¿Aceptar el encargo de vender una casa con estigma, donde alguien falleció, o evitarlo?",
+    "optionA": "Aceptarlo",
+    "optionB": "Evitarlo"
+  },
+  {
+    "id": 128,
+    "question": "¿Publicar el reel aunque no estés del todo contento, o repetirlo hasta que sea perfecto?",
+    "optionA": "Publicar hecho",
+    "optionB": "Perfeccionarlo"
+  },
+  {
+    "id": 129,
+    "question": "¿Priorizar a un comprador internacional que paga más pero tarda en decidir, o a un local que va rápido?",
+    "optionA": "Internacional lento",
+    "optionB": "Local rápido"
+  },
+  {
+    "id": 130,
+    "question": "¿Captar viviendas baratas que rotan rápido, o caras que dan más comisión pero tardan?",
+    "optionA": "Baratas que rotan",
+    "optionB": "Caras que tardan"
+  },
+  {
+    "id": 131,
+    "question": "¿Dedicar el presupuesto del trimestre a captación, o a fidelizar a los clientes actuales?",
+    "optionA": "Captación",
+    "optionB": "Fidelización"
+  },
+  {
+    "id": 132,
+    "question": "¿Bajar la comisión para cerrar tres pisos del mismo propietario, o cobrar tarifa por cada uno?",
+    "optionA": "Pack a menor comisión",
+    "optionB": "Tarifa por cada uno"
+  },
+  {
+    "id": 133,
+    "question": "¿Mostrar el piso con la decoración personal del dueño, o pedir despersonalizarlo antes?",
+    "optionA": "Tal como vive",
+    "optionB": "Despersonalizado"
+  },
+  {
+    "id": 134,
+    "question": "¿Responder tú las dudas legales arriesgándote a errar, o derivar siempre al abogado?",
+    "optionA": "Responder tú",
+    "optionB": "Derivar al abogado"
+  },
+  {
+    "id": 135,
+    "question": "¿Hacer fotos profesionales en todos los pisos, o solo en los de gama alta?",
+    "optionA": "En todos",
+    "optionB": "Solo gama alta"
+  },
+  {
+    "id": 136,
+    "question": "¿Coger al propietario tranquilo que vende 'sin prisa', poco compromiso, o priorizar a los urgentes?",
+    "optionA": "El tranquilo",
+    "optionB": "Los urgentes"
+  },
+  {
+    "id": 137,
+    "question": "¿Escribir descripciones largas y detalladas, o cortas y directas que enganchan?",
+    "optionA": "Largas y detalladas",
+    "optionB": "Cortas y directas"
+  },
+  {
+    "id": 138,
+    "question": "¿Cerrar una venta esta semana renunciando a una comisión compartida, o esperar a quedártela entera?",
+    "optionA": "Cerrar compartiendo",
+    "optionB": "Esperar entera"
+  },
+  {
+    "id": 139,
+    "question": "¿Atender a un cliente exigente que da prestigio, o a varios normales que dan volumen?",
+    "optionA": "El de prestigio",
+    "optionB": "El volumen"
+  },
+  {
+    "id": 140,
+    "question": "¿Publicar precios de venta cerrados reales para dar confianza, o reservarlos por discreción?",
+    "optionA": "Precios reales públicos",
+    "optionB": "Discreción"
+  },
+  {
+    "id": 141,
+    "question": "¿Enseñar el piso a alguien que claramente no puede permitírselo, o filtrarlo con tacto?",
+    "optionA": "Enseñarlo igual",
+    "optionB": "Filtrar con tacto"
+  },
+  {
+    "id": 142,
+    "question": "¿Invertir en una valla física en la zona, o en publicidad digital segmentada?",
+    "optionA": "Valla física",
+    "optionB": "Digital segmentada"
+  },
+  {
+    "id": 143,
+    "question": "¿Representar a comprador y vendedor a la vez en la misma operación, o solo a uno?",
+    "optionA": "Doble representación",
+    "optionB": "Solo a uno"
+  },
+  {
+    "id": 144,
+    "question": "¿Presionar al vendedor para que acepte la rebaja del comprador, o defenderle y arriesgar la venta?",
+    "optionA": "Presionar al vendedor",
+    "optionB": "Defenderle"
+  },
+  {
+    "id": 145,
+    "question": "¿Firmar con quien decide rápido pero exige mucho, o con quien decide lento pero te deja libertad?",
+    "optionA": "Rápido y exigente",
+    "optionB": "Lento y libre"
+  },
+  {
+    "id": 146,
+    "question": "¿Dedicar tu mejor energía a la prospección de la mañana, o a las visitas de la tarde?",
+    "optionA": "Prospección de mañana",
+    "optionB": "Visitas de tarde"
+  },
+  {
+    "id": 147,
+    "question": "¿Poner tu cara y tu nombre en toda la publicidad, te expone, o un formato de marca neutro?",
+    "optionA": "Tu cara al frente",
+    "optionB": "Marca neutra"
+  },
+  {
+    "id": 148,
+    "question": "¿Cerrar el mes con una venta pequeña segura, o arriesgar por una grande que quizá no caiga?",
+    "optionA": "Segura pequeña",
+    "optionB": "Grande arriesgada"
+  },
+  {
+    "id": 149,
+    "question": "¿Seguir el ritmo del cliente aunque alargue meses, o marcar tú los plazos para avanzar?",
+    "optionA": "Su ritmo",
+    "optionB": "Tus plazos"
+  },
+  {
+    "id": 150,
+    "question": "¿Invertir tu tiempo libre en formarte en marketing, o en descansar para rendir mejor?",
+    "optionA": "Formarte",
+    "optionB": "Descansar"
+  }
+]

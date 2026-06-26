@@ -73,7 +73,7 @@ el-dilema-diario/
 - [x] **Fase 2** — Auth (email/Google) + crear/unirse a grupos por código
 - [x] **Fase 3** — `DilemmaCard` (ocultar resultados hasta votar + animaciones)
 - [x] **Fase 4** — Enrutado + hooks de Firestore (feeds Global y Grupos)
-- [ ] **Contenido** — 365 dilemas globales + 150 inmobiliarios
+- [x] **Contenido** — 365 dilemas globales + 150 inmobiliarios
 
 ## Modelo de datos e índices
 
@@ -96,3 +96,30 @@ enlace para hacerlo con un clic:
 - Global: `dilemmas` por (`type`, `dateToShow`)
 - Grupos: `dilemmas` por (`type`, `groupId`, `dateToShow`)
 ```
+
+## Importar los dilemas
+
+Los dilemas viven en `src/data/dilemas_globales.json` y
+`src/data/dilemas_inmobiliarios.json`. Para subirlos a Firestore:
+
+1. **Clave de servicio:** Firebase Console → Configuración del proyecto →
+   Cuentas de servicio → *Generar nueva clave privada*. Guarda el archivo como
+   `serviceAccountKey.json` en la raíz (ya está en `.gitignore`).
+2. **Instala** la dependencia de importación: `npm install`.
+3. **(Opcional, para los inmobiliarios)** crea el grupo de la agencia dentro de
+   la app y copia su id de Firestore.
+4. **Ejecuta:**
+
+```bash
+# Solo globales, empezando hoy:
+npm run seed
+
+# Globales + inmobiliarios en un grupo, con fecha de inicio concreta:
+node scripts/seed-dilemmas.mjs --start 2026-06-27 --group TU_GROUP_ID
+```
+
+Cada dilema recibe un día consecutivo desde `--start`. El script es idempotente
+(ids por fecha), así que puedes reejecutarlo sin duplicar nada. Cuando añadas
+las siguientes tandas a los JSON, basta con volver a lanzarlo.
+
+**Contenido completo:** 365/365 globales · 150/150 inmobiliarios. ✓

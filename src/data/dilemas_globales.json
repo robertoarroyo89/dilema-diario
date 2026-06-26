@@ -1,0 +1,2192 @@
+[
+  {
+    "id": 1,
+    "question": "¿Preferirías poder leer la mente de cualquiera un minuto al día, o que nadie pudiera mentirte nunca?",
+    "optionA": "Leer la mente un minuto",
+    "optionB": "Que nadie te mienta"
+  },
+  {
+    "id": 2,
+    "question": "¿Vivir 40 años más con plena salud pero sin tecnología, o 20 años más con toda la tecnología actual?",
+    "optionA": "40 años sin tecnología",
+    "optionB": "20 años con tecnología"
+  },
+  {
+    "id": 3,
+    "question": "¿Que una IA escriba el libro que siempre quisiste escribir, o no escribirlo nunca pero que la idea siga siendo tuya?",
+    "optionA": "Que lo escriba la IA",
+    "optionB": "No escribirlo jamás"
+  },
+  {
+    "id": 4,
+    "question": "¿Saber cómo te ve realmente la gente, o no saberlo nunca y vivir tranquilo?",
+    "optionA": "Saber la verdad",
+    "optionB": "Vivir tranquilo"
+  },
+  {
+    "id": 5,
+    "question": "¿Recordarlo absolutamente todo, o poder olvidar a voluntad lo que tú elijas?",
+    "optionA": "Recordarlo todo",
+    "optionB": "Olvidar a voluntad"
+  },
+  {
+    "id": 6,
+    "question": "¿Tener razón siempre pero caer mal, o equivocarte a menudo pero caer genial?",
+    "optionA": "Tener razón",
+    "optionB": "Caer bien"
+  },
+  {
+    "id": 7,
+    "question": "¿Un mundo sin redes sociales, o un mundo sin correo electrónico?",
+    "optionA": "Sin redes sociales",
+    "optionB": "Sin email"
+  },
+  {
+    "id": 8,
+    "question": "¿Teletransportarte solo a sitios donde ya has estado, o poder volar pero a 30 km/h?",
+    "optionA": "Teletransporte a lo conocido",
+    "optionB": "Volar lento"
+  },
+  {
+    "id": 9,
+    "question": "¿Que todos tus mensajes se autodestruyan a los 7 días, o que queden guardados para siempre?",
+    "optionA": "Que se borren",
+    "optionB": "Que queden"
+  },
+  {
+    "id": 10,
+    "question": "¿Trabajar 4 días a la semana cobrando un 20% menos, o 5 días con el sueldo actual?",
+    "optionA": "4 días, menos sueldo",
+    "optionB": "5 días, sueldo completo"
+  },
+  {
+    "id": 11,
+    "question": "¿Conocer la fecha de tu mayor éxito, o la de tu mayor error?",
+    "optionA": "Tu mayor éxito",
+    "optionB": "Tu mayor error"
+  },
+  {
+    "id": 12,
+    "question": "¿Que te paguen por dormir 10 horas, o por no tocar el móvil en todo el día?",
+    "optionA": "Por dormir",
+    "optionB": "Por no tocar el móvil"
+  },
+  {
+    "id": 13,
+    "question": "¿Hablar todos los idiomas pero con un acento ridículo, o solo el tuyo pero perfecto?",
+    "optionA": "Todos con acento",
+    "optionB": "Solo el tuyo"
+  },
+  {
+    "id": 14,
+    "question": "¿Que la gente diga siempre lo que piensa, o que piense siempre antes de hablar?",
+    "optionA": "Que lo diga",
+    "optionB": "Que lo piense"
+  },
+  {
+    "id": 15,
+    "question": "¿Una casa preciosa en mitad de la nada, o un piso pequeño en el centro de todo?",
+    "optionA": "Casa aislada",
+    "optionB": "Piso céntrico"
+  },
+  {
+    "id": 16,
+    "question": "¿Poder pausar el tiempo 10 minutos al día, o rebobinarlo 10 segundos una vez al año?",
+    "optionA": "Pausar a diario",
+    "optionB": "Rebobinar una vez"
+  },
+  {
+    "id": 17,
+    "question": "¿Ganar mucho dinero en un trabajo que te da igual, o lo justo en uno que te apasiona?",
+    "optionA": "Dinero sin pasión",
+    "optionB": "Pasión sin dinero"
+  },
+  {
+    "id": 18,
+    "question": "¿Que la IA tome por ti las decisiones difíciles y casi siempre acierte, o decidir tú aunque falles más?",
+    "optionA": "Que decida la IA",
+    "optionB": "Decidir tú"
+  },
+  {
+    "id": 19,
+    "question": "¿Comer solo tu plato favorito el resto de tu vida, o no volver a probarlo nunca?",
+    "optionA": "Solo ese plato",
+    "optionB": "Nunca más"
+  },
+  {
+    "id": 20,
+    "question": "¿Internet gratis pero lento para todos, o rápido pero de pago?",
+    "optionA": "Gratis y lento",
+    "optionB": "Rápido y de pago"
+  },
+  {
+    "id": 21,
+    "question": "¿Saber el día exacto en que serás más feliz, o que te llegue por sorpresa?",
+    "optionA": "Saberlo",
+    "optionB": "Por sorpresa"
+  },
+  {
+    "id": 22,
+    "question": "¿Vivir el mismo día perfecto en bucle durante un año, o un año normal con sus altibajos?",
+    "optionA": "Día perfecto en bucle",
+    "optionB": "Año normal"
+  },
+  {
+    "id": 23,
+    "question": "¿Que te sobre dinero pero te falte tiempo, o que te sobre tiempo pero te falte dinero?",
+    "optionA": "Dinero, sin tiempo",
+    "optionB": "Tiempo, sin dinero"
+  },
+  {
+    "id": 24,
+    "question": "¿Borrar para siempre un recuerdo doloroso, o conservarlo porque te hizo quien eres?",
+    "optionA": "Borrarlo",
+    "optionB": "Conservarlo"
+  },
+  {
+    "id": 25,
+    "question": "¿Que te admiren mil desconocidos, o que te entiendan de verdad tres personas?",
+    "optionA": "Mil admiradores",
+    "optionB": "Tres que te entienden"
+  },
+  {
+    "id": 26,
+    "question": "¿Un coche que conduce solo a la perfección, o conducir tú porque te gusta?",
+    "optionA": "Que conduzca solo",
+    "optionB": "Conducir tú"
+  },
+  {
+    "id": 27,
+    "question": "¿Detectar siempre cuándo alguien te miente, o no saberlo nunca y confiar?",
+    "optionA": "Detectar mentiras",
+    "optionB": "Confiar a ciegas"
+  },
+  {
+    "id": 28,
+    "question": "¿Vivir diez vidas de ocho años con reinicio de memoria, o una sola vida de ochenta?",
+    "optionA": "Diez vidas cortas",
+    "optionB": "Una vida larga"
+  },
+  {
+    "id": 29,
+    "question": "¿Cobrar igual sin trabajar pero sin propósito, o trabajar duro en algo con sentido?",
+    "optionA": "Cobrar sin trabajar",
+    "optionB": "Trabajar con propósito"
+  },
+  {
+    "id": 30,
+    "question": "¿Que tu casa sea inteligente pero te escuche siempre, o tonta pero totalmente privada?",
+    "optionA": "Inteligente",
+    "optionB": "Privada"
+  },
+  {
+    "id": 31,
+    "question": "¿Decir siempre la verdad aunque duela, o usar mentiras piadosas para proteger a otros?",
+    "optionA": "Verdad siempre",
+    "optionB": "Mentiras piadosas"
+  },
+  {
+    "id": 32,
+    "question": "¿Viajar al pasado solo a observar sin cambiar nada, o al futuro solo durante 10 minutos?",
+    "optionA": "Pasado a mirar",
+    "optionB": "Futuro 10 minutos"
+  },
+  {
+    "id": 33,
+    "question": "¿Ser brillante en algo que odias, o mediocre en algo que amas?",
+    "optionA": "Brillante en lo que odias",
+    "optionB": "Mediocre en lo que amas"
+  },
+  {
+    "id": 34,
+    "question": "¿Tener respuesta para todas tus preguntas, o saber siempre la pregunta correcta?",
+    "optionA": "Las respuestas",
+    "optionB": "Las preguntas"
+  },
+  {
+    "id": 35,
+    "question": "¿Que la fama te llegue joven y se vaya, o tarde pero para quedarse?",
+    "optionA": "Joven y fugaz",
+    "optionB": "Tarde y duradera"
+  },
+  {
+    "id": 36,
+    "question": "¿Un móvil con batería infinita pero sin cámara, o una cámara increíble con 4 horas de batería?",
+    "optionA": "Batería infinita",
+    "optionB": "Cámara increíble"
+  },
+  {
+    "id": 37,
+    "question": "¿Saber lo que dirán de ti en tu funeral, o no saberlo y seguir viviendo?",
+    "optionA": "Saberlo",
+    "optionB": "No saberlo"
+  },
+  {
+    "id": 38,
+    "question": "¿Que todos trabajen en lo que aman aunque la economía se resienta, o estabilidad aunque muchos odien su empleo?",
+    "optionA": "Pasión colectiva",
+    "optionB": "Estabilidad"
+  },
+  {
+    "id": 39,
+    "question": "¿Tener siempre la última tecnología pero pagarla cara, o ir un paso por detrás pero barato?",
+    "optionA": "Última y cara",
+    "optionB": "Un paso atrás y barata"
+  },
+  {
+    "id": 40,
+    "question": "¿Vivir donde siempre es verano, o donde se viven las cuatro estaciones?",
+    "optionA": "Verano eterno",
+    "optionB": "Cuatro estaciones"
+  },
+  {
+    "id": 41,
+    "question": "¿Dormir solo 4 horas y despertar pleno, o dormir 9 horas plácidas?",
+    "optionA": "Dormir poco y pleno",
+    "optionB": "Dormir mucho"
+  },
+  {
+    "id": 42,
+    "question": "¿Que las máquinas hagan el trabajo aburrido aunque haya menos empleos, o conservar empleos haciendo tareas tediosas?",
+    "optionA": "Menos trabajo aburrido",
+    "optionB": "Más empleo tedioso"
+  },
+  {
+    "id": 43,
+    "question": "¿Tener una última conversación con alguien que ya no está, o pasar página del todo?",
+    "optionA": "Una última charla",
+    "optionB": "Pasar página"
+  },
+  {
+    "id": 44,
+    "question": "¿Que tus fotos salgan siempre perfectas pero retocadas, o reales con sus defectos?",
+    "optionA": "Perfectas retocadas",
+    "optionB": "Reales con defectos"
+  },
+  {
+    "id": 45,
+    "question": "¿Saber el final de cada historia antes de empezarla pero nunca aburrirte, o vivir la sorpresa arriesgándote a decepciones?",
+    "optionA": "Saber el final",
+    "optionB": "Vivir la sorpresa"
+  },
+  {
+    "id": 46,
+    "question": "¿Que la humanidad llegue a Marte en tu vida aunque tú no vayas, o que nunca ocurra pero la Tierra mejore?",
+    "optionA": "Marte sin ti",
+    "optionB": "Una Tierra mejor"
+  },
+  {
+    "id": 47,
+    "question": "¿Tener un amigo leal que nunca te reta, o uno que te reta constantemente y te hace crecer?",
+    "optionA": "El leal cómodo",
+    "optionB": "El que te reta"
+  },
+  {
+    "id": 48,
+    "question": "¿Poder deshacer una decisión de tu vida, o conocer el resultado de la que no tomaste?",
+    "optionA": "Deshacer una decisión",
+    "optionB": "Ver el camino no elegido"
+  },
+  {
+    "id": 49,
+    "question": "¿Que el arte lo siga creando la gente aunque sea peor, o que lo cree la IA aunque sea espectacular?",
+    "optionA": "Arte humano imperfecto",
+    "optionB": "Arte de IA impecable"
+  },
+  {
+    "id": 50,
+    "question": "¿Vivir una vida tranquila y predecible, o una intensa llena de altibajos?",
+    "optionA": "Tranquila y predecible",
+    "optionB": "Intensa con altibajos"
+  },
+  {
+    "id": 51,
+    "question": "¿Borrar las redes sociales del mundo entero, o que todos pudieran ver tu historial de búsquedas?",
+    "optionA": "Adiós a las redes",
+    "optionB": "Tu historial al descubierto"
+  },
+  {
+    "id": 52,
+    "question": "¿Vivir sin música el resto de tu vida, o sin cine ni series?",
+    "optionA": "Sin música",
+    "optionB": "Sin cine ni series"
+  },
+  {
+    "id": 53,
+    "question": "¿Que tu mascota viva tanto como tú, o entenderla a la perfección mientras viva?",
+    "optionA": "Que viva lo que tú",
+    "optionB": "Entenderla del todo"
+  },
+  {
+    "id": 54,
+    "question": "¿El trabajo soñado lejos de los tuyos, o uno normal cerca de ellos?",
+    "optionA": "Soñado pero lejos",
+    "optionB": "Normal pero cerca"
+  },
+  {
+    "id": 55,
+    "question": "¿Que todos supieran cuánto ganas, o cuánto tiempo pierdes en el móvil?",
+    "optionA": "Tu sueldo",
+    "optionB": "Tu tiempo de pantalla"
+  },
+  {
+    "id": 56,
+    "question": "¿Poder hablar con los animales, o con las plantas?",
+    "optionA": "Con los animales",
+    "optionB": "Con las plantas"
+  },
+  {
+    "id": 57,
+    "question": "¿Una semana de vacaciones perfectas sin una sola foto, o unas normales con un álbum increíble?",
+    "optionA": "Perfectas sin pruebas",
+    "optionB": "Normales con recuerdos"
+  },
+  {
+    "id": 58,
+    "question": "¿Que se resolviera el cambio climático pagando tú el doble de impuestos, o seguir igual?",
+    "optionA": "Resolverlo pagando más",
+    "optionB": "Seguir igual"
+  },
+  {
+    "id": 59,
+    "question": "¿Un botón para silenciar a alguien 24 horas, o para repetir una conversación?",
+    "optionA": "Silenciar a alguien",
+    "optionB": "Repetir una charla"
+  },
+  {
+    "id": 60,
+    "question": "¿Saber tocar cualquier instrumento, o dominar cualquier deporte?",
+    "optionA": "Cualquier instrumento",
+    "optionB": "Cualquier deporte"
+  },
+  {
+    "id": 61,
+    "question": "¿Que tu comida favorita no engordara nunca, o no volver a estar cansado jamás?",
+    "optionA": "Comer sin engordar",
+    "optionB": "No cansarte nunca"
+  },
+  {
+    "id": 62,
+    "question": "¿Trabajar desde cualquier playa con mala conexión, o desde una oficina fija con todo perfecto?",
+    "optionA": "Playa con mala conexión",
+    "optionB": "Oficina perfecta"
+  },
+  {
+    "id": 63,
+    "question": "¿Que copien tus ideas y triunfen otros, o no tener nunca ideas brillantes?",
+    "optionA": "Que te copien y triunfen",
+    "optionB": "No tenerlas"
+  },
+  {
+    "id": 64,
+    "question": "¿Conocer a tu yo de hace diez años, o a tu yo de dentro de diez?",
+    "optionA": "El de hace diez",
+    "optionB": "El de dentro de diez"
+  },
+  {
+    "id": 65,
+    "question": "¿Que desaparezca el dinero en efectivo, o que todo vuelva a ser solo efectivo?",
+    "optionA": "Solo digital",
+    "optionB": "Solo efectivo"
+  },
+  {
+    "id": 66,
+    "question": "¿Un superpoder inútil pero único en el mundo, o uno útil que tiene todo el mundo?",
+    "optionA": "Inútil y único",
+    "optionB": "Útil y común"
+  },
+  {
+    "id": 67,
+    "question": "¿Salud de hierro pero memoria frágil, o memoria perfecta pero salud frágil?",
+    "optionA": "Salud, sin memoria",
+    "optionB": "Memoria, sin salud"
+  },
+  {
+    "id": 68,
+    "question": "¿Vivir en una ciudad que nunca duerme, o en un pueblo donde todos se conocen?",
+    "optionA": "Ciudad que no duerme",
+    "optionB": "Pueblo de todos"
+  },
+  {
+    "id": 69,
+    "question": "¿Que la IA cure todas las enfermedades pero gestione tus datos médicos, o seguir como ahora con tu privacidad intacta?",
+    "optionA": "Cura total, sin privacidad",
+    "optionB": "Como ahora, con privacidad"
+  },
+  {
+    "id": 70,
+    "question": "¿Comer gratis cualquier cosa del mundo, o viajar gratis a cualquier sitio?",
+    "optionA": "Comer gratis",
+    "optionB": "Viajar gratis"
+  },
+  {
+    "id": 71,
+    "question": "¿Que te quieran por quien finges ser, o que te rechacen por quien eres?",
+    "optionA": "Querido fingiendo",
+    "optionB": "Rechazado siendo tú"
+  },
+  {
+    "id": 72,
+    "question": "¿Recibir hoy 100.000 €, o 500 € cada mes el resto de tu vida?",
+    "optionA": "100.000 ahora",
+    "optionB": "500 al mes para siempre"
+  },
+  {
+    "id": 73,
+    "question": "¿Todos tus dispositivos de una sola marca para siempre, o cambiar cada año pero sin que nada se conecte bien?",
+    "optionA": "Todo de una marca",
+    "optionB": "Variedad sin compatibilidad"
+  },
+  {
+    "id": 74,
+    "question": "¿Saber el oficio perfecto para ti, o a la persona perfecta para ti?",
+    "optionA": "Tu oficio ideal",
+    "optionB": "Tu persona ideal"
+  },
+  {
+    "id": 75,
+    "question": "¿Que el arte te emocione siempre aunque no lo entiendas, o entenderlo todo sin emocionarte?",
+    "optionA": "Emocionar sin entender",
+    "optionB": "Entender sin emocionar"
+  },
+  {
+    "id": 76,
+    "question": "¿Vivir cien años recordándolo todo, o cincuenta tan intensos que valgan por mil?",
+    "optionA": "Cien recordando",
+    "optionB": "Cincuenta intensos"
+  },
+  {
+    "id": 77,
+    "question": "¿Una casa siempre minimalista y algo vacía, o cálida pero llena de trastos?",
+    "optionA": "Minimalista y vacía",
+    "optionB": "Cálida y llena"
+  },
+  {
+    "id": 78,
+    "question": "¿Un asistente que organiza tu vida sin pedir permiso, o organizarte tú aunque seas un caos?",
+    "optionA": "Que decida por ti",
+    "optionB": "Tu caos pero tuyo"
+  },
+  {
+    "id": 79,
+    "question": "¿Que se prohibiera la publicidad en todo el mundo, o que internet siguiera gratis gracias a ella?",
+    "optionA": "Sin publicidad",
+    "optionB": "Gratis con publicidad"
+  },
+  {
+    "id": 80,
+    "question": "¿Poder rebobinar tu peor día, o adelantar tu mejor día?",
+    "optionA": "Rebobinar el peor",
+    "optionB": "Adelantar el mejor"
+  },
+  {
+    "id": 81,
+    "question": "¿Que tu trabajo lo valore mucho la gente pero poco tu jefe, o al revés?",
+    "optionA": "Lo valora la gente",
+    "optionB": "Lo valora tu jefe"
+  },
+  {
+    "id": 82,
+    "question": "¿Fama mundial durante una semana, o estabilidad anónima toda la vida?",
+    "optionA": "Fama una semana",
+    "optionB": "Anonimato estable"
+  },
+  {
+    "id": 83,
+    "question": "¿Que las máquinas compongan mejores canciones que cualquier humano, o que nunca igualen a un artista?",
+    "optionA": "Máquinas geniales",
+    "optionB": "Humanos insuperables"
+  },
+  {
+    "id": 84,
+    "question": "¿Vivir sin notificaciones nunca más, o sin contraseñas porque todo reconoce tu cara?",
+    "optionA": "Sin notificaciones",
+    "optionB": "Sin contraseñas"
+  },
+  {
+    "id": 85,
+    "question": "¿Que te paguen por aprender cosas inútiles, o por enseñar lo que ya sabes?",
+    "optionA": "Aprender lo inútil",
+    "optionB": "Enseñar lo tuyo"
+  },
+  {
+    "id": 86,
+    "question": "¿Una relación apasionada pero turbulenta, o tranquila pero algo aburrida?",
+    "optionA": "Pasión turbulenta",
+    "optionB": "Calma aburrida"
+  },
+  {
+    "id": 87,
+    "question": "¿Saber qué piensan de ti tus seres queridos, o que ellos sepan lo que piensas de ellos?",
+    "optionA": "Saberlo tú",
+    "optionB": "Que lo sepan ellos"
+  },
+  {
+    "id": 88,
+    "question": "¿Que el primer contacto con extraterrestres ocurra en tu vida aunque dé miedo, o nunca y vivir tranquilo?",
+    "optionA": "Contacto, con miedo",
+    "optionB": "Nunca, tranquilo"
+  },
+  {
+    "id": 89,
+    "question": "¿Teletrabajar siempre sin ver a nadie, o ir cada día a una oficina con buen ambiente?",
+    "optionA": "Teletrabajo aislado",
+    "optionB": "Oficina con ambiente"
+  },
+  {
+    "id": 90,
+    "question": "¿Que te recuerden mil años de forma confusa, o cincuenta con cariño y claridad?",
+    "optionA": "Mil años difuso",
+    "optionB": "Cincuenta con cariño"
+  },
+  {
+    "id": 91,
+    "question": "¿Acceso a todo el conocimiento pero lo olvidas en 24 horas, o aprender despacio y para siempre?",
+    "optionA": "Todo por un día",
+    "optionB": "Poco para siempre"
+  },
+  {
+    "id": 92,
+    "question": "¿Un mundo más justo pero más aburrido, o más injusto pero más emocionante?",
+    "optionA": "Justo y aburrido",
+    "optionB": "Injusto y emocionante"
+  },
+  {
+    "id": 93,
+    "question": "¿Volar pero solo de noche, o ser invisible pero solo de día?",
+    "optionA": "Volar de noche",
+    "optionB": "Invisible de día"
+  },
+  {
+    "id": 94,
+    "question": "¿Un móvil que sabe qué necesitas antes que tú, o no tener móvil pero vivir más presente?",
+    "optionA": "Móvil que te adelanta",
+    "optionB": "Sin móvil, presente"
+  },
+  {
+    "id": 95,
+    "question": "¿Renunciar al café para siempre, o a las pantallas los fines de semana?",
+    "optionA": "Sin café",
+    "optionB": "Sin pantallas el finde"
+  },
+  {
+    "id": 96,
+    "question": "¿Descubrir tu mayor talento a los setenta, o vivir creyendo que no tienes ninguno?",
+    "optionA": "Tarde pero existe",
+    "optionB": "Creer que no hay"
+  },
+  {
+    "id": 97,
+    "question": "¿Una vida llena de viajes pero sin echar raíces, o un hogar estable pero sin moverte?",
+    "optionA": "Viajes sin raíces",
+    "optionB": "Hogar sin moverte"
+  },
+  {
+    "id": 98,
+    "question": "¿Que la tecnología avance despacio pero todos la entiendan, o rapidísimo aunque te quedes atrás?",
+    "optionA": "Lenta y comprensible",
+    "optionB": "Rápida e inalcanzable"
+  },
+  {
+    "id": 99,
+    "question": "¿Borrar una mala costumbre al instante, o adquirir una buena al instante?",
+    "optionA": "Borrar una mala",
+    "optionB": "Ganar una buena"
+  },
+  {
+    "id": 100,
+    "question": "¿Que tu vida sea una película que otros ven, o un diario que solo lees tú?",
+    "optionA": "Película pública",
+    "optionB": "Diario privado"
+  },
+  {
+    "id": 101,
+    "question": "¿Tener siempre la respuesta correcta en el trabajo pero ningún mérito, o equivocarte a veces pero llevarte el reconocimiento?",
+    "optionA": "Acertar sin mérito",
+    "optionB": "Fallar con reconocimiento"
+  },
+  {
+    "id": 102,
+    "question": "¿Que se pudiera comprar y vender el sueño, o el tiempo libre?",
+    "optionA": "Comprar sueño",
+    "optionB": "Comprar tiempo libre"
+  },
+  {
+    "id": 103,
+    "question": "¿Un mundo sin mentiras pero sin sorpresas, o con mentiras pero con magia?",
+    "optionA": "Verdad sin sorpresa",
+    "optionB": "Mentira con magia"
+  },
+  {
+    "id": 104,
+    "question": "¿Hijos felices pero del montón, o brillantes pero atormentados?",
+    "optionA": "Felices del montón",
+    "optionB": "Brillantes atormentados"
+  },
+  {
+    "id": 105,
+    "question": "¿Pausar una discusión y pensar diez minutos, o borrar lo último que dijiste una vez al día?",
+    "optionA": "Pausar y pensar",
+    "optionB": "Borrar lo dicho"
+  },
+  {
+    "id": 106,
+    "question": "¿Jornada de seis horas pero sin vacaciones, o de ocho con un mes largo libre?",
+    "optionA": "Seis horas sin vacaciones",
+    "optionB": "Ocho con vacaciones"
+  },
+  {
+    "id": 107,
+    "question": "¿Una memoria que guarda olores, o una que guarda sonidos?",
+    "optionA": "Recordar olores",
+    "optionB": "Recordar sonidos"
+  },
+  {
+    "id": 108,
+    "question": "¿Que la gente te juzgue por tu mejor día, o que no te juzgue pero tampoco te admire?",
+    "optionA": "Juzgado por lo mejor",
+    "optionB": "Ni juzgado ni admirado"
+  },
+  {
+    "id": 109,
+    "question": "¿Saber que hay vida después de la muerte aunque sea gris, o no saberlo y aprovechar esta?",
+    "optionA": "Saber que hay más",
+    "optionB": "No saber, vivir esta"
+  },
+  {
+    "id": 110,
+    "question": "¿Poder cambiar una ley del mundo, o una costumbre de tu país?",
+    "optionA": "Una ley mundial",
+    "optionB": "Una costumbre local"
+  },
+  {
+    "id": 111,
+    "question": "¿Que cocine siempre un robot perfecto, o cocinar tú aunque a veces salga mal?",
+    "optionA": "Robot perfecto",
+    "optionB": "Tú, imperfecto"
+  },
+  {
+    "id": 112,
+    "question": "¿Un amigo que nunca falla pero nunca sorprende, o uno impredecible pero inolvidable?",
+    "optionA": "Fiable y previsible",
+    "optionB": "Impredecible e inolvidable"
+  },
+  {
+    "id": 113,
+    "question": "¿Que el dinero creciera en los árboles pero todo costara el triple, o seguir como ahora?",
+    "optionA": "Dinero fácil, todo caro",
+    "optionB": "Como ahora"
+  },
+  {
+    "id": 114,
+    "question": "¿Revivir un día de tu infancia, o asomarte a un día dentro de treinta años?",
+    "optionA": "Revivir la infancia",
+    "optionB": "Asomarte al futuro"
+  },
+  {
+    "id": 115,
+    "question": "¿Que tu empleo desaparezca por la automatización con buena indemnización, o seguir haciéndolo veinte años más?",
+    "optionA": "Fuera, bien pagado",
+    "optionB": "Seguir veinte años"
+  },
+  {
+    "id": 116,
+    "question": "¿Belleza eterna pero salud normal, o salud de hierro pero envejecer rápido?",
+    "optionA": "Bello, salud normal",
+    "optionB": "Sano, envejecer rápido"
+  },
+  {
+    "id": 117,
+    "question": "¿Que se revele mañana un gran misterio del universo aunque te quite el sueño, o seguir con la duda fascinante?",
+    "optionA": "Saber la verdad",
+    "optionB": "Disfrutar la duda"
+  },
+  {
+    "id": 118,
+    "question": "¿Editar un recuerdo para mejorarlo, o protegerlo tal cual aunque sea imperfecto?",
+    "optionA": "Editarlo mejor",
+    "optionB": "Dejarlo real"
+  },
+  {
+    "id": 119,
+    "question": "¿Una ciudad peatonal y lenta, o rápida y llena de coches?",
+    "optionA": "Peatonal y lenta",
+    "optionB": "Rápida con coches"
+  },
+  {
+    "id": 120,
+    "question": "¿Un día extra a la semana solo para ti, o que la semana cunda el doble?",
+    "optionA": "Un día solo tuyo",
+    "optionB": "Que todo cunda el doble"
+  },
+  {
+    "id": 121,
+    "question": "¿Emociones siempre suaves y estables, o intensas pero a veces incontrolables?",
+    "optionA": "Suaves y estables",
+    "optionB": "Intensas e indomables"
+  },
+  {
+    "id": 122,
+    "question": "¿Hablar una vez con tu yo del futuro, o escuchar a tu yo del pasado avisándote?",
+    "optionA": "Hablar con el futuro",
+    "optionB": "Oír al pasado"
+  },
+  {
+    "id": 123,
+    "question": "¿Educación gratis y obligatoria toda la vida, o libre pero de pago?",
+    "optionA": "Gratis y obligatoria",
+    "optionB": "Libre y de pago"
+  },
+  {
+    "id": 124,
+    "question": "¿Un superpoder que solo funciona mientras duermes, o uno que te agota cada vez que lo usas?",
+    "optionA": "Poder mientras duermes",
+    "optionB": "Poder que agota"
+  },
+  {
+    "id": 125,
+    "question": "¿Que la gente recuerde tus palabras, o tus actos?",
+    "optionA": "Tus palabras",
+    "optionB": "Tus actos"
+  },
+  {
+    "id": 126,
+    "question": "¿Vivir con lo justo pero sin deudas nunca, o con lujos pero siempre debiendo algo?",
+    "optionA": "Justo sin deudas",
+    "optionB": "Lujo con deudas"
+  },
+  {
+    "id": 127,
+    "question": "¿Una habitación secreta inútil pero tuya, o una más de uso compartido?",
+    "optionA": "Secreta e inútil",
+    "optionB": "Útil y compartida"
+  },
+  {
+    "id": 128,
+    "question": "¿Entender cualquier lenguaje de máquina, o cualquier idioma humano?",
+    "optionA": "Lenguaje de máquinas",
+    "optionB": "Idiomas humanos"
+  },
+  {
+    "id": 129,
+    "question": "¿Un mundo con renta básica para todos, o con pleno empleo aunque mal pagado?",
+    "optionA": "Renta para todos",
+    "optionB": "Empleo para todos"
+  },
+  {
+    "id": 130,
+    "question": "¿Éxito rápido que se olvida, o lento que perdura?",
+    "optionA": "Rápido y olvidado",
+    "optionB": "Lento y duradero"
+  },
+  {
+    "id": 131,
+    "question": "¿Que tus fotos solo existan en papel, o solo en la nube?",
+    "optionA": "Solo en papel",
+    "optionB": "Solo en la nube"
+  },
+  {
+    "id": 132,
+    "question": "¿Poder elegir el clima de tu día, o el ánimo de tu día?",
+    "optionA": "Elegir el clima",
+    "optionB": "Elegir el ánimo"
+  },
+  {
+    "id": 133,
+    "question": "¿Gente más honesta pero más fría, o más cálida pero menos sincera?",
+    "optionA": "Honesta y fría",
+    "optionB": "Cálida y menos sincera"
+  },
+  {
+    "id": 134,
+    "question": "¿Vivir un gran amor que sabes que acabará, o evitar el dolor no viviéndolo?",
+    "optionA": "Amor con fecha",
+    "optionB": "Evitar el dolor"
+  },
+  {
+    "id": 135,
+    "question": "¿Un trabajo que deja huella pero te quema, o cómodo pero olvidable?",
+    "optionA": "Huella que quema",
+    "optionB": "Cómodo y olvidable"
+  },
+  {
+    "id": 136,
+    "question": "¿Una agenda siempre llena de planes, o siempre con huecos para improvisar?",
+    "optionA": "Llena de planes",
+    "optionB": "Con huecos libres"
+  },
+  {
+    "id": 137,
+    "question": "¿Que la IA sea tu mejor consejera, o tu peor enemiga pero con tú al mando?",
+    "optionA": "Aliada que decide",
+    "optionB": "Enemiga bajo tu control"
+  },
+  {
+    "id": 138,
+    "question": "¿Dominar tus miedos a voluntad, o tus impulsos?",
+    "optionA": "Domar los miedos",
+    "optionB": "Domar los impulsos"
+  },
+  {
+    "id": 139,
+    "question": "¿Que recuerden tu nombre, o tu obra, pero no ambos?",
+    "optionA": "Tu nombre",
+    "optionB": "Tu obra"
+  },
+  {
+    "id": 140,
+    "question": "¿Vacaciones infinitas pero sin propósito, o un proyecto apasionante sin descanso?",
+    "optionA": "Descanso sin fin",
+    "optionB": "Proyecto sin descanso"
+  },
+  {
+    "id": 141,
+    "question": "¿Que cada compra tuya sea pública, o no volver a comprar nunca por internet?",
+    "optionA": "Compras públicas",
+    "optionB": "Adiós al online"
+  },
+  {
+    "id": 142,
+    "question": "¿Predecir el tiempo con un día de margen, o el tráfico con una hora?",
+    "optionA": "El tiempo, un día",
+    "optionB": "El tráfico, una hora"
+  },
+  {
+    "id": 143,
+    "question": "¿Que tu pasión se convierta en trabajo y a veces canse, o siga siendo un hobby puro?",
+    "optionA": "Pasión hecha trabajo",
+    "optionB": "Hobby intacto"
+  },
+  {
+    "id": 144,
+    "question": "¿Un cuerpo que no envejece pero una mente que sí, o al revés?",
+    "optionA": "Cuerpo joven, mente vieja",
+    "optionB": "Mente joven, cuerpo viejo"
+  },
+  {
+    "id": 145,
+    "question": "¿Que el primer robot consciente merezca derechos, o siga siendo solo una herramienta?",
+    "optionA": "Derechos para la máquina",
+    "optionB": "Solo una herramienta"
+  },
+  {
+    "id": 146,
+    "question": "¿Repetir tu mejor año entero, o estrenar uno totalmente nuevo e incierto?",
+    "optionA": "Repetir el mejor",
+    "optionB": "Estrenar incierto"
+  },
+  {
+    "id": 147,
+    "question": "¿Que tu opinión cambie el mundo una vez, o que mil personas te escuchen toda la vida?",
+    "optionA": "Un gran impacto",
+    "optionB": "Influencia constante"
+  },
+  {
+    "id": 148,
+    "question": "¿Tener siempre la última palabra, o el primer movimiento?",
+    "optionA": "La última palabra",
+    "optionB": "El primer movimiento"
+  },
+  {
+    "id": 149,
+    "question": "¿Un trabajo invisible pero esencial, o visible pero prescindible?",
+    "optionA": "Invisible y esencial",
+    "optionB": "Visible y prescindible"
+  },
+  {
+    "id": 150,
+    "question": "¿Viajar a cualquier época pasada un día, o a cualquier lugar del presente al instante?",
+    "optionA": "Una época pasada",
+    "optionB": "Cualquier lugar hoy"
+  },
+  {
+    "id": 151,
+    "question": "¿Que la gente solo pueda hablar siendo amable, o sea libre aunque a veces cruel?",
+    "optionA": "Amabilidad obligada",
+    "optionB": "Libertad aunque duela"
+  },
+  {
+    "id": 152,
+    "question": "¿Un talento que admiras pero no disfrutas, o disfrutar algo que se te da fatal?",
+    "optionA": "Admirar sin disfrutar",
+    "optionB": "Disfrutar sin talento"
+  },
+  {
+    "id": 153,
+    "question": "¿Una banda sonora que solo oyes tú, o subtítulos que solo lees tú?",
+    "optionA": "Banda sonora",
+    "optionB": "Subtítulos"
+  },
+  {
+    "id": 154,
+    "question": "¿Eliminar el aburrimiento, o la prisa?",
+    "optionA": "Sin aburrimiento",
+    "optionB": "Sin prisa"
+  },
+  {
+    "id": 155,
+    "question": "¿Todo el conocimiento humano en un solo lugar frágil, o repartido pero incompleto?",
+    "optionA": "Todo junto y frágil",
+    "optionB": "Repartido e incompleto"
+  },
+  {
+    "id": 156,
+    "question": "¿Una segunda oportunidad en una decisión pasada, o un aviso antes de la próxima grande?",
+    "optionA": "Repetir una pasada",
+    "optionB": "Aviso de la próxima"
+  },
+  {
+    "id": 157,
+    "question": "¿Que tu hogar se ordene solo por arte de magia, o tener tiempo extra a cambio del desorden?",
+    "optionA": "Orden mágico",
+    "optionB": "Tiempo con desorden"
+  },
+  {
+    "id": 158,
+    "question": "¿Leer un libro y recordarlo entero, o vivir la historia como si fueras el protagonista?",
+    "optionA": "Recordarlo entero",
+    "optionB": "Vivirlo por dentro"
+  },
+  {
+    "id": 159,
+    "question": "¿Que las redes muestren solo cosas reales aunque aburridas, o espectaculares aunque falsas?",
+    "optionA": "Reales y aburridas",
+    "optionB": "Falsas y espectaculares"
+  },
+  {
+    "id": 160,
+    "question": "¿Empezar de cero en otra ciudad, o arreglar todo donde estás?",
+    "optionA": "Empezar de cero",
+    "optionB": "Arreglar lo de aquí"
+  },
+  {
+    "id": 161,
+    "question": "¿Un jefe justo pero exigente, o amable pero caótico?",
+    "optionA": "Justo y exigente",
+    "optionB": "Amable y caótico"
+  },
+  {
+    "id": 162,
+    "question": "¿Sentir un día lo que siente otra persona, o que ella sienta lo tuyo?",
+    "optionA": "Sentir lo suyo",
+    "optionB": "Que sienta lo tuyo"
+  },
+  {
+    "id": 163,
+    "question": "¿Que el éxito dependa solo del esfuerzo, o también de la suerte como ahora?",
+    "optionA": "Solo esfuerzo",
+    "optionB": "Esfuerzo y suerte"
+  },
+  {
+    "id": 164,
+    "question": "¿Una conversación profunda con un desconocido cada día, o una superficial con un amigo?",
+    "optionA": "Profunda con extraño",
+    "optionB": "Ligera con amigo"
+  },
+  {
+    "id": 165,
+    "question": "¿Un móvil que dura diez años pero feo, o uno precioso cada año?",
+    "optionA": "Diez años, feo",
+    "optionB": "Bonito cada año"
+  },
+  {
+    "id": 166,
+    "question": "¿Cambiar de profesión sin empezar de cero, o dominar la tuya como nadie?",
+    "optionA": "Cambiar sin coste",
+    "optionB": "Dominar la tuya"
+  },
+  {
+    "id": 167,
+    "question": "¿Gente puntual siempre pero rígida, o flexible pero impredecible?",
+    "optionA": "Puntual y rígida",
+    "optionB": "Flexible e impredecible"
+  },
+  {
+    "id": 168,
+    "question": "¿Acceso a una biblioteca infinita, o a un maestro que responde cualquier duda?",
+    "optionA": "Biblioteca infinita",
+    "optionB": "Maestro infalible"
+  },
+  {
+    "id": 169,
+    "question": "¿Borrar tus errores del recuerdo de todos, o multiplicar tus aciertos?",
+    "optionA": "Borrar errores",
+    "optionB": "Multiplicar aciertos"
+  },
+  {
+    "id": 170,
+    "question": "¿Vivir un día siendo otra persona, o un día sin ser nadie, invisible y libre?",
+    "optionA": "Ser otro un día",
+    "optionB": "No ser nadie un día"
+  },
+  {
+    "id": 171,
+    "question": "¿Que el dinero solo sirva para experiencias, o solo para cosas?",
+    "optionA": "Solo experiencias",
+    "optionB": "Solo cosas"
+  },
+  {
+    "id": 172,
+    "question": "¿Un cuerpo atlético sin esfuerzo, o una mente lúcida sin esfuerzo?",
+    "optionA": "Cuerpo regalado",
+    "optionB": "Mente regalada"
+  },
+  {
+    "id": 173,
+    "question": "¿La verdad siempre simple pero dura, o compleja pero llevadera?",
+    "optionA": "Simple y dura",
+    "optionB": "Compleja y llevadera"
+  },
+  {
+    "id": 174,
+    "question": "¿Apagar el ruido del mundo cuando quieras, o oír los pensamientos amables de la gente?",
+    "optionA": "Silencio a demanda",
+    "optionB": "Pensamientos amables"
+  },
+  {
+    "id": 175,
+    "question": "¿Un legado material que perdura, o uno inmaterial que inspira?",
+    "optionA": "Algo que perdura",
+    "optionB": "Una idea que inspira"
+  },
+  {
+    "id": 176,
+    "question": "¿La certeza de que tomas buenas decisiones, o la libertad de equivocarte sin culpa?",
+    "optionA": "Certeza de acertar",
+    "optionB": "Libertad sin culpa"
+  },
+  {
+    "id": 177,
+    "question": "¿Que la tecnología te conozca mejor que tú mismo, o que nunca sepa nada de ti?",
+    "optionA": "Que te conozca",
+    "optionB": "Que no sepa nada"
+  },
+  {
+    "id": 178,
+    "question": "¿Elegir cómo te recuerdan, o cómo te ven hoy?",
+    "optionA": "Cómo te recuerdan",
+    "optionB": "Cómo te ven hoy"
+  },
+  {
+    "id": 179,
+    "question": "¿Un equipo que siempre funciona pero sin que brilles tú, o brillar tú solo a veces?",
+    "optionA": "Equipo que funciona",
+    "optionB": "Tu brillo a ratos"
+  },
+  {
+    "id": 180,
+    "question": "¿Una vida sin grandes riesgos ni grandes premios, o jugártela por algo enorme?",
+    "optionA": "Sin riesgos ni premios",
+    "optionB": "Jugártela por todo"
+  },
+  {
+    "id": 181,
+    "question": "¿Que tus seres queridos nunca sufran pero tampoco crezcan, o que crezcan aunque sufran?",
+    "optionA": "Sin sufrir, sin crecer",
+    "optionB": "Crecer sufriendo"
+  },
+  {
+    "id": 182,
+    "question": "¿Dominar una conversación difícil, o evitarla por completo sin consecuencias?",
+    "optionA": "Dominarla",
+    "optionB": "Evitarla sin coste"
+  },
+  {
+    "id": 183,
+    "question": "¿Que la fama de tu trabajo se la lleve tu equipo, o tú solo aunque ellos se enfaden?",
+    "optionA": "Para el equipo",
+    "optionB": "Para ti solo"
+  },
+  {
+    "id": 184,
+    "question": "¿Una intuición infalible pero sin pruebas, o datos perfectos pero lentos?",
+    "optionA": "Intuición sin pruebas",
+    "optionB": "Datos lentos"
+  },
+  {
+    "id": 185,
+    "question": "¿Que la jornada empiece cuando tú quieras, o termine cuando tú quieras?",
+    "optionA": "Empezar a tu hora",
+    "optionB": "Terminar a tu hora"
+  },
+  {
+    "id": 186,
+    "question": "¿Transmitir una emoción a alguien, o recibir la suya?",
+    "optionA": "Transmitir la tuya",
+    "optionB": "Recibir la suya"
+  },
+  {
+    "id": 187,
+    "question": "¿Un mundo con menos opciones pero mejores, o con muchísimas aunque te abrumen?",
+    "optionA": "Pocas y buenas",
+    "optionB": "Muchas y abrumadoras"
+  },
+  {
+    "id": 188,
+    "question": "¿Un mentor exigente que te hace mejor, o un amigo que te acepta como eres?",
+    "optionA": "Mentor exigente",
+    "optionB": "Amigo que te acepta"
+  },
+  {
+    "id": 189,
+    "question": "¿Que tus ideas se ejecuten solas pero sin control, o ejecutarlas tú lento pero a tu manera?",
+    "optionA": "Solas sin control",
+    "optionB": "Lento a tu manera"
+  },
+  {
+    "id": 190,
+    "question": "¿Pausar el envejecimiento cinco años, o saltarte los cinco peores años por venir?",
+    "optionA": "Pausar cinco años",
+    "optionB": "Saltar los cinco peores"
+  },
+  {
+    "id": 191,
+    "question": "¿Que la gente diga más gracias, o más perdón cuando toca?",
+    "optionA": "Más gracias",
+    "optionB": "Más perdón"
+  },
+  {
+    "id": 192,
+    "question": "¿Un negocio pequeño y tuyo, o ser pieza clave de uno enorme?",
+    "optionA": "Pequeño y tuyo",
+    "optionB": "Clave en uno grande"
+  },
+  {
+    "id": 193,
+    "question": "¿Que tus recuerdos se puedan compartir como vídeos, o queden solo en tu cabeza?",
+    "optionA": "Compartibles",
+    "optionB": "Solo tuyos"
+  },
+  {
+    "id": 194,
+    "question": "¿Hablar en público sin miedo, o escribir como un maestro?",
+    "optionA": "Hablar sin miedo",
+    "optionB": "Escribir como nadie"
+  },
+  {
+    "id": 195,
+    "question": "¿Un futuro escrito pero bueno, o abierto pero incierto?",
+    "optionA": "Escrito y bueno",
+    "optionB": "Abierto e incierto"
+  },
+  {
+    "id": 196,
+    "question": "¿Un don para caer bien, o para detectar a la buena gente?",
+    "optionA": "Caer bien",
+    "optionB": "Detectar a los buenos"
+  },
+  {
+    "id": 197,
+    "question": "¿Un trabajo 100% remoto pero solitario, o presencial pero con grandes compañeros?",
+    "optionA": "Remoto y solo",
+    "optionB": "Presencial y acompañado"
+  },
+  {
+    "id": 198,
+    "question": "¿Recuperar una oportunidad perdida, o crear una nueva de la nada?",
+    "optionA": "Recuperar la perdida",
+    "optionB": "Crear una nueva"
+  },
+  {
+    "id": 199,
+    "question": "¿Que el dinero se mida en tiempo de vida, o el tiempo en dinero?",
+    "optionA": "Dinero en tiempo",
+    "optionB": "Tiempo en dinero"
+  },
+  {
+    "id": 200,
+    "question": "¿Una vida coherente y predecible, o llena de giros que ni tú esperabas?",
+    "optionA": "Coherente",
+    "optionB": "Llena de giros"
+  },
+  {
+    "id": 201,
+    "question": "¿Que la IA te recomiende siempre lo mejor aunque te quite la elección, o elegir tú a ciegas?",
+    "optionA": "Que elija por ti",
+    "optionB": "Elegir tú a ciegas"
+  },
+  {
+    "id": 202,
+    "question": "¿Dominar el arte de escuchar, o el de convencer?",
+    "optionA": "Escuchar",
+    "optionB": "Convencer"
+  },
+  {
+    "id": 203,
+    "question": "¿Vacaciones siempre de aventura, o siempre de descanso total?",
+    "optionA": "Aventura",
+    "optionB": "Descanso total"
+  },
+  {
+    "id": 204,
+    "question": "¿Un sueldo alto en un sitio que odias, o medio en uno que amas?",
+    "optionA": "Alto donde odias",
+    "optionB": "Medio donde amas"
+  },
+  {
+    "id": 205,
+    "question": "¿Que recuerden siempre tu cara, o tu nombre?",
+    "optionA": "Tu cara",
+    "optionB": "Tu nombre"
+  },
+  {
+    "id": 206,
+    "question": "¿Quitar una preocupación al día, o sumar una alegría al día?",
+    "optionA": "Quitar una preocupación",
+    "optionB": "Sumar una alegría"
+  },
+  {
+    "id": 207,
+    "question": "¿Que el progreso tecnológico se pare diez años para reflexionar, o siga a toda velocidad?",
+    "optionA": "Pausa de diez años",
+    "optionB": "A toda velocidad"
+  },
+  {
+    "id": 208,
+    "question": "¿Una casa que se adapta a tu ánimo, o un coche que va donde piensas?",
+    "optionA": "Casa que te lee",
+    "optionB": "Coche que te lleva"
+  },
+  {
+    "id": 209,
+    "question": "¿Que los tuyos te digan siempre la verdad, o te protejan a veces con silencio?",
+    "optionA": "Verdad siempre",
+    "optionB": "Silencio que protege"
+  },
+  {
+    "id": 210,
+    "question": "¿Aprender de cada fracaso al instante, o no fracasar nunca pero sin aprender?",
+    "optionA": "Fracasar y aprender",
+    "optionB": "No fracasar sin crecer"
+  },
+  {
+    "id": 211,
+    "question": "¿Que premie solo el resultado, o también cómo lo cuentas?",
+    "optionA": "Solo el resultado",
+    "optionB": "Resultado más relato"
+  },
+  {
+    "id": 212,
+    "question": "¿Una memoria que no guarda rencores, o una que no olvida favores?",
+    "optionA": "Sin rencores",
+    "optionB": "Sin olvidar favores"
+  },
+  {
+    "id": 213,
+    "question": "¿Que la sociedad valore más la sabiduría que la juventud, o al revés como ahora?",
+    "optionA": "Sabiduría primero",
+    "optionB": "Juventud primero"
+  },
+  {
+    "id": 214,
+    "question": "¿Elegir tu última comida, o tu última canción?",
+    "optionA": "Última comida",
+    "optionB": "Última canción"
+  },
+  {
+    "id": 215,
+    "question": "¿Una vida que es un viaje sin mapa, o un mapa sin viaje, todo planeado y poco vivido?",
+    "optionA": "Viaje sin mapa",
+    "optionB": "Mapa sin viaje"
+  },
+  {
+    "id": 216,
+    "question": "¿Un superpoder que beneficia a todos menos a ti, o solo a ti?",
+    "optionA": "Para todos menos tú",
+    "optionB": "Solo para ti"
+  },
+  {
+    "id": 217,
+    "question": "¿Un mundo más silencioso, o más luminoso?",
+    "optionA": "Más silencio",
+    "optionB": "Más luz"
+  },
+  {
+    "id": 218,
+    "question": "¿Cambiar un recuerdo de otra persona sobre ti, o uno tuyo sobre otro?",
+    "optionA": "El suyo sobre ti",
+    "optionB": "El tuyo sobre otro"
+  },
+  {
+    "id": 219,
+    "question": "¿Que tu trabajo cambie el mundo despacio, o que tu vida personal florezca rápido?",
+    "optionA": "Cambiar el mundo lento",
+    "optionB": "Florecer tú rápido"
+  },
+  {
+    "id": 220,
+    "question": "¿Tener siempre razón en lo pequeño, o acertar en lo importante?",
+    "optionA": "Razón en lo pequeño",
+    "optionB": "Acertar en lo grande"
+  },
+  {
+    "id": 221,
+    "question": "¿Que la gente exprese más lo que admira, o menos lo que critica?",
+    "optionA": "Más admiración",
+    "optionB": "Menos crítica"
+  },
+  {
+    "id": 222,
+    "question": "¿Repetir en bucle tu mejor conversación, o estrenar mil conversaciones nuevas?",
+    "optionA": "Repetir la mejor",
+    "optionB": "Mil nuevas"
+  },
+  {
+    "id": 223,
+    "question": "¿Una casa con vistas al mar tranquilo, o a una ciudad vibrante?",
+    "optionA": "Mar tranquilo",
+    "optionB": "Ciudad vibrante"
+  },
+  {
+    "id": 224,
+    "question": "¿Una habilidad rara y cotizada, o una común pero que te encanta?",
+    "optionA": "Rara y cotizada",
+    "optionB": "Común y querida"
+  },
+  {
+    "id": 225,
+    "question": "¿Que el dinero llegue siempre justo a tiempo, o de golpe pero impredecible?",
+    "optionA": "Justo a tiempo",
+    "optionB": "De golpe e impredecible"
+  },
+  {
+    "id": 226,
+    "question": "¿Hablar con tu yo de una vida paralela, o solo ver cómo te va en ella?",
+    "optionA": "Hablar con él",
+    "optionB": "Solo mirar"
+  },
+  {
+    "id": 227,
+    "question": "¿Que la verdad de tu vida la cuente un amigo, o un enemigo?",
+    "optionA": "Un amigo",
+    "optionB": "Un enemigo"
+  },
+  {
+    "id": 228,
+    "question": "¿Una rutina perfecta pero rígida, o libertad total pero algo de caos?",
+    "optionA": "Rutina perfecta",
+    "optionB": "Libertad caótica"
+  },
+  {
+    "id": 229,
+    "question": "¿Que la tecnología te dé más tiempo libre pero más vigilancia, o menos de ambas cosas?",
+    "optionA": "Tiempo con vigilancia",
+    "optionB": "Menos de los dos"
+  },
+  {
+    "id": 230,
+    "question": "¿Revivir a alguien un día, o despedirte como nunca pudiste?",
+    "optionA": "Revivir un día",
+    "optionB": "Una despedida"
+  },
+  {
+    "id": 231,
+    "question": "¿Un trabajo con prestigio pero poco dinero, o con dinero pero poco prestigio?",
+    "optionA": "Prestigio sin dinero",
+    "optionB": "Dinero sin prestigio"
+  },
+  {
+    "id": 232,
+    "question": "¿Un superpoder potente pero de un solo uso, o uno débil pero infinito?",
+    "optionA": "Potente, una vez",
+    "optionB": "Débil, infinito"
+  },
+  {
+    "id": 233,
+    "question": "¿Que la gente sea más curiosa, o más agradecida?",
+    "optionA": "Más curiosa",
+    "optionB": "Más agradecida"
+  },
+  {
+    "id": 234,
+    "question": "¿Borrar tu peor hábito digital, o el de toda tu familia?",
+    "optionA": "El tuyo",
+    "optionB": "El de tu familia"
+  },
+  {
+    "id": 235,
+    "question": "¿Que tu legado sea algo que construiste, o alguien a quien formaste?",
+    "optionA": "Algo que construiste",
+    "optionB": "Alguien que formaste"
+  },
+  {
+    "id": 236,
+    "question": "¿Una vida con muchos conocidos, o con pocos amigos de verdad?",
+    "optionA": "Muchos conocidos",
+    "optionB": "Pocos de verdad"
+  },
+  {
+    "id": 237,
+    "question": "¿Dos horas más de luz al día, o dos horas más de sueño?",
+    "optionA": "Más luz",
+    "optionB": "Más sueño"
+  },
+  {
+    "id": 238,
+    "question": "¿Corregir un error global de la humanidad, o uno personal que te marcó?",
+    "optionA": "Uno de la humanidad",
+    "optionB": "Uno tuyo"
+  },
+  {
+    "id": 239,
+    "question": "¿Que el éxito ajeno te inspire siempre, o que nunca te afecte?",
+    "optionA": "Que te inspire",
+    "optionB": "Que no te afecte"
+  },
+  {
+    "id": 240,
+    "question": "¿Un empleo de por vida garantizado pero siempre el mismo, o libertad total pero incertidumbre?",
+    "optionA": "Estable de por vida",
+    "optionB": "Libre e incierto"
+  },
+  {
+    "id": 241,
+    "question": "¿Que recuerden cómo les hiciste sentir, o lo que lograste?",
+    "optionA": "Cómo les hiciste sentir",
+    "optionB": "Lo que lograste"
+  },
+  {
+    "id": 242,
+    "question": "¿Ver el potencial oculto de la gente, o el tuyo propio?",
+    "optionA": "El de los demás",
+    "optionB": "El tuyo"
+  },
+  {
+    "id": 243,
+    "question": "¿Que tus mensajes se entiendan siempre como los piensas, o que la gente sea más paciente al leerte?",
+    "optionA": "Entendidos al instante",
+    "optionB": "Lectores pacientes"
+  },
+  {
+    "id": 244,
+    "question": "¿Una vida cómoda que no recuerdas, o una dura que cuentas con orgullo?",
+    "optionA": "Cómoda y borrosa",
+    "optionB": "Dura y memorable"
+  },
+  {
+    "id": 245,
+    "question": "¿Que el mundo se mueva por mérito puro, o por relaciones y confianza?",
+    "optionA": "Solo mérito",
+    "optionB": "Relaciones y confianza"
+  },
+  {
+    "id": 246,
+    "question": "¿Dormirte al instante cuando quieras, o despertarte fresco a cualquier hora?",
+    "optionA": "Dormir al instante",
+    "optionB": "Despertar fresco"
+  },
+  {
+    "id": 247,
+    "question": "¿Un trabajo que amas pero te aísla, o anodino pero con gente increíble?",
+    "optionA": "Amado pero solo",
+    "optionB": "Anodino pero acompañado"
+  },
+  {
+    "id": 248,
+    "question": "¿Un don para empezar cosas, o para terminarlas?",
+    "optionA": "Empezar",
+    "optionB": "Terminar"
+  },
+  {
+    "id": 249,
+    "question": "¿Información siempre gratis pero menos fiable, o de pago pero verificada?",
+    "optionA": "Gratis y dudosa",
+    "optionB": "De pago y fiable"
+  },
+  {
+    "id": 250,
+    "question": "¿Pausar una emoción intensa, o amplificar una alegría pequeña?",
+    "optionA": "Pausar lo intenso",
+    "optionB": "Amplificar lo bueno"
+  },
+  {
+    "id": 251,
+    "question": "¿Un hogar autosuficiente pero austero, o conectado pero dependiente?",
+    "optionA": "Autosuficiente y austero",
+    "optionB": "Conectado y dependiente"
+  },
+  {
+    "id": 252,
+    "question": "¿Un trabajo que cambia el mundo a costa de tu salud, o uno tranquilo que cuida de ti?",
+    "optionA": "Cambiar el mundo",
+    "optionB": "Tranquilo y sano"
+  },
+  {
+    "id": 253,
+    "question": "¿Que la gente sea más paciente, o más valiente?",
+    "optionA": "Más paciente",
+    "optionB": "Más valiente"
+  },
+  {
+    "id": 254,
+    "question": "¿Elegir el día en que vuelves a empezar, o el día en que todo encaja?",
+    "optionA": "Reiniciar a tu gusto",
+    "optionB": "El día que encaja"
+  },
+  {
+    "id": 255,
+    "question": "¿Más reparto de riqueza pero menos grandes ideas, o más ideas pero menos reparto?",
+    "optionA": "Más reparto",
+    "optionB": "Más ideas"
+  },
+  {
+    "id": 256,
+    "question": "¿Una mente tranquila pero corriente, o brillante pero inquieta?",
+    "optionA": "Tranquila corriente",
+    "optionB": "Brillante inquieta"
+  },
+  {
+    "id": 257,
+    "question": "¿Que tu legado lo disfruten desconocidos, o solo tu círculo cercano?",
+    "optionA": "Desconocidos",
+    "optionB": "Tu círculo"
+  },
+  {
+    "id": 258,
+    "question": "¿Ver una vez tu vida desde fuera, o la de alguien que admiras?",
+    "optionA": "La tuya desde fuera",
+    "optionB": "La de tu referente"
+  },
+  {
+    "id": 259,
+    "question": "¿El trabajo perfecto pero lejos, o el aceptable al lado de casa?",
+    "optionA": "Perfecto y lejos",
+    "optionB": "Aceptable y cerca"
+  },
+  {
+    "id": 260,
+    "question": "¿Una buena historia que contar, o una vida tranquila que vivir?",
+    "optionA": "Historia que contar",
+    "optionB": "Vida tranquila"
+  },
+  {
+    "id": 261,
+    "question": "¿Que las máquinas decidan por ti lo aburrido, o lo creativo?",
+    "optionA": "Que decidan lo aburrido",
+    "optionB": "Que decidan lo creativo"
+  },
+  {
+    "id": 262,
+    "question": "¿Recuperar la energía de tus veinte, o la sabiduría que tendrás a los ochenta?",
+    "optionA": "Energía de los veinte",
+    "optionB": "Sabiduría de los ochenta"
+  },
+  {
+    "id": 263,
+    "question": "¿Que tu nombre abra puertas pero con presión, o pasar desapercibido pero libre?",
+    "optionA": "Nombre con presión",
+    "optionB": "Anónimo y libre"
+  },
+  {
+    "id": 264,
+    "question": "¿Un superpoder que solo tú conoces, o uno que todos ven y admiran?",
+    "optionA": "Secreto",
+    "optionB": "Admirado"
+  },
+  {
+    "id": 265,
+    "question": "¿Un mundo más lento pero más humano, o más rápido pero más eficiente?",
+    "optionA": "Lento y humano",
+    "optionB": "Rápido y eficiente"
+  },
+  {
+    "id": 266,
+    "question": "¿No envejecer por dentro, o no envejecer por fuera?",
+    "optionA": "Joven por dentro",
+    "optionB": "Joven por fuera"
+  },
+  {
+    "id": 267,
+    "question": "¿Que tu trabajo deje huella en pocos pero profunda, o en muchos pero leve?",
+    "optionA": "Pocos, profunda",
+    "optionB": "Muchos, leve"
+  },
+  {
+    "id": 268,
+    "question": "¿Una vida sin pantallas pero más presente, o con pantallas pero más conectado al mundo?",
+    "optionA": "Sin pantallas, presente",
+    "optionB": "Con pantallas, conectado"
+  },
+  {
+    "id": 269,
+    "question": "¿Que la gente comparta más sus fracasos, o solo sus éxitos como ahora?",
+    "optionA": "También fracasos",
+    "optionB": "Solo éxitos"
+  },
+  {
+    "id": 270,
+    "question": "¿Cambiar una decisión de un líder mundial, o las de tu propia vida?",
+    "optionA": "La de un líder",
+    "optionB": "Las tuyas"
+  },
+  {
+    "id": 271,
+    "question": "¿Que el tiempo en familia no se olvide nunca, o que el tiempo de trabajo cunda el doble?",
+    "optionA": "Familia inolvidable",
+    "optionB": "Trabajo el doble"
+  },
+  {
+    "id": 272,
+    "question": "¿Una intuición que nunca falla con personas, o con oportunidades?",
+    "optionA": "Leer personas",
+    "optionB": "Leer oportunidades"
+  },
+  {
+    "id": 273,
+    "question": "¿Una casa pequeña en un sitio increíble, o enorme en uno corriente?",
+    "optionA": "Pequeña, sitio top",
+    "optionB": "Enorme, sitio normal"
+  },
+  {
+    "id": 274,
+    "question": "¿Eliminar tus inseguridades, o multiplicar tu motivación?",
+    "optionA": "Sin inseguridades",
+    "optionB": "Más motivación"
+  },
+  {
+    "id": 275,
+    "question": "¿Que la verdad incómoda llegue pronto y dura, o tarde y suave?",
+    "optionA": "Pronto y dura",
+    "optionB": "Tarde y suave"
+  },
+  {
+    "id": 276,
+    "question": "¿Un trabajo flexible pero inestable, o fijo pero rígido?",
+    "optionA": "Flexible e inestable",
+    "optionB": "Fijo y rígido"
+  },
+  {
+    "id": 277,
+    "question": "¿Que confíen en ti rápido pero superficial, o despacio pero profundo?",
+    "optionA": "Rápida y superficial",
+    "optionB": "Lenta y profunda"
+  },
+  {
+    "id": 278,
+    "question": "¿Una vida más larga aburrida, o más corta apasionante?",
+    "optionA": "Larga y plana",
+    "optionB": "Corta y vibrante"
+  },
+  {
+    "id": 279,
+    "question": "¿Que el dinero compre salud pero no tiempo, o tiempo pero no salud?",
+    "optionA": "Salud, no tiempo",
+    "optionB": "Tiempo, no salud"
+  },
+  {
+    "id": 280,
+    "question": "¿Un don artístico que pocos aprecian, o uno técnico muy demandado?",
+    "optionA": "Arte poco apreciado",
+    "optionB": "Técnica demandada"
+  },
+  {
+    "id": 281,
+    "question": "¿Que tu mayor sueño se cumpla tarde, o uno mediano pronto?",
+    "optionA": "Grande pero tarde",
+    "optionB": "Mediano pero ya"
+  },
+  {
+    "id": 282,
+    "question": "¿Cambiar de opinión sin que te juzguen, o mantenerla con respeto aunque te equivoques?",
+    "optionA": "Cambiar sin juicio",
+    "optionB": "Mantenerla con respeto"
+  },
+  {
+    "id": 283,
+    "question": "¿Que el trabajo se mida por horas, o por resultados aunque sea injusto a veces?",
+    "optionA": "Por horas",
+    "optionB": "Por resultados"
+  },
+  {
+    "id": 284,
+    "question": "¿Una vida con un gran capítulo memorable, o muchos capítulos buenos pero normales?",
+    "optionA": "Un gran capítulo",
+    "optionB": "Muchos buenos"
+  },
+  {
+    "id": 285,
+    "question": "¿Que la tecnología te dé compañía perfecta pero artificial, o soledad real?",
+    "optionA": "Compañía artificial",
+    "optionB": "Soledad real"
+  },
+  {
+    "id": 286,
+    "question": "¿Dominar el silencio incómodo, o saber llenar cualquier conversación?",
+    "optionA": "Manejar el silencio",
+    "optionB": "Llenar el vacío"
+  },
+  {
+    "id": 287,
+    "question": "¿Que se note siempre tu esfuerzo, o que hablen solos tus resultados?",
+    "optionA": "Que se vea el esfuerzo",
+    "optionB": "Que hablen los resultados"
+  },
+  {
+    "id": 288,
+    "question": "¿Acceso ilimitado a maestros, o a recursos y herramientas?",
+    "optionA": "Maestros",
+    "optionB": "Herramientas"
+  },
+  {
+    "id": 289,
+    "question": "¿Que el mundo recuerde una buena acción tuya, o que olvide una mala?",
+    "optionA": "Recordar lo bueno",
+    "optionB": "Olvidar lo malo"
+  },
+  {
+    "id": 290,
+    "question": "¿Elegir el momento de tu mayor golpe de suerte, o que llegue por sorpresa?",
+    "optionA": "Elegir cuándo",
+    "optionB": "Por sorpresa"
+  },
+  {
+    "id": 291,
+    "question": "¿Empezar el día con una buena noticia segura, o con una sorpresa que puede ser cualquier cosa?",
+    "optionA": "Buena noticia segura",
+    "optionB": "Sorpresa total"
+  },
+  {
+    "id": 292,
+    "question": "¿Una pareja que te reta, o que te calma?",
+    "optionA": "Que te reta",
+    "optionB": "Que te calma"
+  },
+  {
+    "id": 293,
+    "question": "¿Trabajar en lo que crees cobrando poco, o en lo que no crees cobrando mucho?",
+    "optionA": "Creer y cobrar poco",
+    "optionB": "No creer y cobrar mucho"
+  },
+  {
+    "id": 294,
+    "question": "¿Revivir el día que conociste a alguien clave, o el de tu mayor logro?",
+    "optionA": "Conocer a esa persona",
+    "optionB": "Tu mayor logro"
+  },
+  {
+    "id": 295,
+    "question": "¿Que la gente sea más directa aunque incómoda, o más diplomática aunque lenta?",
+    "optionA": "Directa",
+    "optionB": "Diplomática"
+  },
+  {
+    "id": 296,
+    "question": "¿Una vida llena de arte, o llena de naturaleza?",
+    "optionA": "Arte",
+    "optionB": "Naturaleza"
+  },
+  {
+    "id": 297,
+    "question": "¿Un trabajo con autonomía pero soledad, o con estructura pero dependencia?",
+    "optionA": "Autonomía solitaria",
+    "optionB": "Estructura dependiente"
+  },
+  {
+    "id": 298,
+    "question": "¿Garantizar la felicidad de un ser querido a costa de tu comodidad, o cuidarte tú primero?",
+    "optionA": "Su felicidad",
+    "optionB": "Tu equilibrio"
+  },
+  {
+    "id": 299,
+    "question": "¿Que las ideas te fluyan fáciles pero comunes, o difíciles pero originales?",
+    "optionA": "Fáciles y comunes",
+    "optionB": "Difíciles y originales"
+  },
+  {
+    "id": 300,
+    "question": "¿Un final feliz garantizado tras un camino duro, o un camino fácil con final incierto?",
+    "optionA": "Camino duro, buen final",
+    "optionB": "Fácil, final incierto"
+  },
+  {
+    "id": 301,
+    "question": "¿Que el reconocimiento llegue en vida pero tarde, o tras tu muerte pero enorme?",
+    "optionA": "En vida, tarde",
+    "optionB": "Después, enorme"
+  },
+  {
+    "id": 302,
+    "question": "¿Tener menos pero disfrutarlo, o más aunque no lo aproveches?",
+    "optionA": "Menos y disfrutado",
+    "optionB": "Más y desaprovechado"
+  },
+  {
+    "id": 303,
+    "question": "¿Que la sociedad premie la constancia, o la genialidad?",
+    "optionA": "La constancia",
+    "optionB": "La genialidad"
+  },
+  {
+    "id": 304,
+    "question": "¿Una memoria selectiva a tu favor, o una honesta aunque duela?",
+    "optionA": "Selectiva amable",
+    "optionB": "Honesta dura"
+  },
+  {
+    "id": 305,
+    "question": "¿Que tu vida inspire un libro, o una canción?",
+    "optionA": "Un libro",
+    "optionB": "Una canción"
+  },
+  {
+    "id": 306,
+    "question": "¿Controlar tu atención a voluntad, o tu estado de ánimo?",
+    "optionA": "Tu atención",
+    "optionB": "Tu ánimo"
+  },
+  {
+    "id": 307,
+    "question": "¿El trabajo perfecto ahora sin estar listo, o tarde estando preparado?",
+    "optionA": "Ahora sin estar listo",
+    "optionB": "Tarde y preparado"
+  },
+  {
+    "id": 308,
+    "question": "¿Un círculo pequeño y leal, o una red amplia y útil?",
+    "optionA": "Pequeño y leal",
+    "optionB": "Amplia y útil"
+  },
+  {
+    "id": 309,
+    "question": "¿Saber la verdad sobre tu salud toda de golpe, o poco a poco?",
+    "optionA": "Toda de golpe",
+    "optionB": "Poco a poco"
+  },
+  {
+    "id": 310,
+    "question": "¿Viajar ligero toda la vida, o tener un hogar lleno de historia?",
+    "optionA": "Viajar ligero",
+    "optionB": "Hogar con historia"
+  },
+  {
+    "id": 311,
+    "question": "¿Que tu mayor crítico sea justo, o tu mayor fan exagerado?",
+    "optionA": "Crítico justo",
+    "optionB": "Fan exagerado"
+  },
+  {
+    "id": 312,
+    "question": "¿Una vida donde todo cuesta pero sabe a gloria, o donde todo es fácil pero soso?",
+    "optionA": "Esfuerzo con gloria",
+    "optionB": "Fácil y soso"
+  },
+  {
+    "id": 313,
+    "question": "¿Que recuerden tus comienzos humildes, o solo tu mejor versión?",
+    "optionA": "Tus comienzos",
+    "optionB": "Tu mejor versión"
+  },
+  {
+    "id": 314,
+    "question": "¿Ayudar a mucha gente un poco, o a una persona muchísimo?",
+    "optionA": "A muchos un poco",
+    "optionB": "A uno muchísimo"
+  },
+  {
+    "id": 315,
+    "question": "¿Que el azar juegue a tu favor en lo pequeño cada día, o una sola vez en lo enorme?",
+    "optionA": "Suerte pequeña constante",
+    "optionB": "Suerte enorme una vez"
+  },
+  {
+    "id": 316,
+    "question": "¿Un trabajo con propósito pero sin glamour, o glamuroso pero vacío?",
+    "optionA": "Propósito sin glamour",
+    "optionB": "Glamour vacío"
+  },
+  {
+    "id": 317,
+    "question": "¿Decisiones rápidas y casi siempre buenas, o lentas y casi siempre óptimas?",
+    "optionA": "Rápidas y buenas",
+    "optionB": "Lentas y óptimas"
+  },
+  {
+    "id": 318,
+    "question": "¿No volver a sentir vergüenza, o no volver a sentir miedo?",
+    "optionA": "Sin vergüenza",
+    "optionB": "Sin miedo"
+  },
+  {
+    "id": 319,
+    "question": "¿Que la humanidad avance unida pero despacio, o dividida pero rápida?",
+    "optionA": "Unida y lenta",
+    "optionB": "Dividida y rápida"
+  },
+  {
+    "id": 320,
+    "question": "¿Una vida que admiras tú, o que admiran los demás?",
+    "optionA": "Que admiras tú",
+    "optionB": "Que admiran ellos"
+  },
+  {
+    "id": 321,
+    "question": "¿Mucho tiempo libre pero solitario, o poco pero compartido?",
+    "optionA": "Mucho y solo",
+    "optionB": "Poco y acompañado"
+  },
+  {
+    "id": 322,
+    "question": "¿Resolver tu economía sin esfuerzo, o tu salud sin esfuerzo?",
+    "optionA": "Economía resuelta",
+    "optionB": "Salud resuelta"
+  },
+  {
+    "id": 323,
+    "question": "¿Que tu obra se reconozca al instante pero se olvide, o tarde mucho pero perdure?",
+    "optionA": "Rápida y olvidada",
+    "optionB": "Tardía y eterna"
+  },
+  {
+    "id": 324,
+    "question": "¿Un día perfecto que no recuerdas, o uno normal que recuerdas siempre?",
+    "optionA": "Perfecto olvidado",
+    "optionB": "Normal inolvidable"
+  },
+  {
+    "id": 325,
+    "question": "¿Que la gente sea más generosa con su tiempo, o con su dinero?",
+    "optionA": "Su tiempo",
+    "optionB": "Su dinero"
+  },
+  {
+    "id": 326,
+    "question": "¿Elegir tu trabajo o tu ciudad, pero no ambos?",
+    "optionA": "Elegir trabajo",
+    "optionB": "Elegir ciudad"
+  },
+  {
+    "id": 327,
+    "question": "¿Que tus emociones sean un libro abierto, o un misterio incluso para ti?",
+    "optionA": "Libro abierto",
+    "optionB": "Misterio"
+  },
+  {
+    "id": 328,
+    "question": "¿Un talento que madura con los años, o uno que brilla ya y se apaga?",
+    "optionA": "Madura lento",
+    "optionB": "Brilla y se apaga"
+  },
+  {
+    "id": 329,
+    "question": "¿Que el progreso te deje atrás pero feliz, o te arrastre adelante pero estresado?",
+    "optionA": "Atrás y feliz",
+    "optionB": "Adelante y estresado"
+  },
+  {
+    "id": 330,
+    "question": "¿Rebobinar una palabra dicha, o recuperar una callada?",
+    "optionA": "Borrar lo dicho",
+    "optionB": "Decir lo callado"
+  },
+  {
+    "id": 331,
+    "question": "¿Que suerte y talento se repartan iguales para todos, o que cada uno luche con lo suyo?",
+    "optionA": "Todo igualado",
+    "optionB": "Cada uno lo suyo"
+  },
+  {
+    "id": 332,
+    "question": "¿Una vida intensa de cincuenta años, o una serena de noventa?",
+    "optionA": "Intensa de cincuenta",
+    "optionB": "Serena de noventa"
+  },
+  {
+    "id": 333,
+    "question": "¿Que tu trabajo te defina, o que sea solo una parte de ti?",
+    "optionA": "Que te defina",
+    "optionB": "Solo una parte"
+  },
+  {
+    "id": 334,
+    "question": "¿Leer el futuro de tu carrera, o el de tus relaciones?",
+    "optionA": "Tu carrera",
+    "optionB": "Tus relaciones"
+  },
+  {
+    "id": 335,
+    "question": "¿Que el mundo valore más a quien crea, o a quien cuida?",
+    "optionA": "Quien crea",
+    "optionB": "Quien cuida"
+  },
+  {
+    "id": 336,
+    "question": "¿Éxito en algo que empezaste por dinero, o fracaso en algo que empezaste por amor?",
+    "optionA": "Éxito por dinero",
+    "optionB": "Fracaso por amor"
+  },
+  {
+    "id": 337,
+    "question": "¿Que tu casa cambie de estilo cada año gratis, o sea la misma perfecta para siempre?",
+    "optionA": "Cambia cada año",
+    "optionB": "Perfecta para siempre"
+  },
+  {
+    "id": 338,
+    "question": "¿Revivir tu primer gran logro, o anticipar el próximo?",
+    "optionA": "Revivir el primero",
+    "optionB": "Anticipar el próximo"
+  },
+  {
+    "id": 339,
+    "question": "¿Que la gente sea más auténtica aunque rara, o más normal aunque impostada?",
+    "optionA": "Auténtica y rara",
+    "optionB": "Normal e impostada"
+  },
+  {
+    "id": 340,
+    "question": "¿Un trabajo de impacto local visible, o global invisible?",
+    "optionA": "Local visible",
+    "optionB": "Global invisible"
+  },
+  {
+    "id": 341,
+    "question": "¿Un ocio siempre nuevo pero superficial, o repetido pero profundo?",
+    "optionA": "Nuevo y ligero",
+    "optionB": "Repetido y hondo"
+  },
+  {
+    "id": 342,
+    "question": "¿Elegir tú tu mayor reto, o que la vida te lo ponga?",
+    "optionA": "Elegirlo tú",
+    "optionB": "Que llegue solo"
+  },
+  {
+    "id": 343,
+    "question": "¿Que tus logros se midan por lo que ganas, o por a quién ayudas?",
+    "optionA": "Lo que ganas",
+    "optionB": "A quién ayudas"
+  },
+  {
+    "id": 344,
+    "question": "¿Una mente que nunca para, o una que descansa pero pierde ideas?",
+    "optionA": "Mente sin freno",
+    "optionB": "Mente que descansa"
+  },
+  {
+    "id": 345,
+    "question": "¿Que la tecnología te haga la vida más fácil pero vigilada, o más difícil pero libre?",
+    "optionA": "Fácil y vigilada",
+    "optionB": "Difícil y libre"
+  },
+  {
+    "id": 346,
+    "question": "¿Elegir cómo empieza tu día, o cómo termina?",
+    "optionA": "El inicio",
+    "optionB": "El final"
+  },
+  {
+    "id": 347,
+    "question": "¿Una pasión que paga poco hoy y quizá mucho mañana, o un trabajo bien pagado hoy sin emoción?",
+    "optionA": "Pasión con futuro incierto",
+    "optionB": "Bien pagado sin emoción"
+  },
+  {
+    "id": 348,
+    "question": "¿Una vida sencilla que entiendes del todo, o compleja que te sorprende siempre?",
+    "optionA": "Sencilla y clara",
+    "optionB": "Compleja y sorprendente"
+  },
+  {
+    "id": 349,
+    "question": "¿Que te recuerden por una gran obra, o por mil pequeños gestos?",
+    "optionA": "Una gran obra",
+    "optionB": "Mil gestos"
+  },
+  {
+    "id": 350,
+    "question": "¿Que tu legado te supere, o que te recuerden con cariño?",
+    "optionA": "Que te superen",
+    "optionB": "Que te recuerden"
+  },
+  {
+    "id": 351,
+    "question": "¿Que el trabajo sea un juego que disfrutas, o un deber que cumples con orgullo?",
+    "optionA": "Juego que disfrutas",
+    "optionB": "Deber con orgullo"
+  },
+  {
+    "id": 352,
+    "question": "¿Un superpoder mental, o uno físico?",
+    "optionA": "Mental",
+    "optionB": "Físico"
+  },
+  {
+    "id": 353,
+    "question": "¿Pocas tareas pero importantes al día, o muchas pero ligeras?",
+    "optionA": "Pocas e importantes",
+    "optionB": "Muchas y ligeras"
+  },
+  {
+    "id": 354,
+    "question": "¿Cambiar el pasado con riesgo, o aceptar el presente con paz?",
+    "optionA": "Cambiar con riesgo",
+    "optionB": "Aceptar con paz"
+  },
+  {
+    "id": 355,
+    "question": "¿Creatividad en rachas intensas, o constante pero suave?",
+    "optionA": "Rachas intensas",
+    "optionB": "Constante y suave"
+  },
+  {
+    "id": 356,
+    "question": "¿Un éxito que te aísla, o un fracaso que te une a los tuyos?",
+    "optionA": "Éxito que aísla",
+    "optionB": "Fracaso que une"
+  },
+  {
+    "id": 357,
+    "question": "¿Que la gente valore más el camino, o el destino?",
+    "optionA": "El camino",
+    "optionB": "El destino"
+  },
+  {
+    "id": 358,
+    "question": "¿Dominar una crisis con calma, o evitarla viéndola venir?",
+    "optionA": "Manejarla",
+    "optionB": "Evitarla"
+  },
+  {
+    "id": 359,
+    "question": "¿Una marca personal fuerte pero que te encasilla, o flexible pero difusa?",
+    "optionA": "Fuerte y encasillada",
+    "optionB": "Flexible y difusa"
+  },
+  {
+    "id": 360,
+    "question": "¿Una vida con grandes vistas pero lejos, o cómoda pero sin vistas?",
+    "optionA": "Vistas lejanas",
+    "optionB": "Comodidad cercana"
+  },
+  {
+    "id": 361,
+    "question": "¿Que el reconocimiento venga de los expertos, o del público?",
+    "optionA": "De los expertos",
+    "optionB": "Del público"
+  },
+  {
+    "id": 362,
+    "question": "¿Elegir cada mañana tu energía, o tu claridad mental?",
+    "optionA": "Energía",
+    "optionB": "Claridad"
+  },
+  {
+    "id": 363,
+    "question": "¿Que tu historia la cuentes tú con tus fallos, o la cuenten otros con tus aciertos?",
+    "optionA": "Tú con fallos",
+    "optionB": "Otros con aciertos"
+  },
+  {
+    "id": 364,
+    "question": "¿Una meta enorme que quizá no alcances, o varias pequeñas que sí?",
+    "optionA": "Una enorme incierta",
+    "optionB": "Varias pequeñas seguras"
+  },
+  {
+    "id": 365,
+    "question": "¿Dedicar el último día del año a celebrar lo logrado, o a planear lo que viene?",
+    "optionA": "Celebrar lo logrado",
+    "optionB": "Planear lo que viene"
+  }
+]
